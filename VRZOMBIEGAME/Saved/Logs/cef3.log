@@ -1,0 +1,15 @@
+[0926/034155.913:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0926/034156.331:WARNING:backend_impl.cc(1813)] Destroying invalid entry.
+[0926/034156.331:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0926/034157.714:WARNING:storage_block-inl.h(146)] Failed data load.
+[0926/034157.714:WARNING:storage_block-inl.h(146)] Failed data load.
+[0926/034157.714:WARNING:storage_block-inl.h(146)] Failed data load.
+[0926/034157.716:WARNING:storage_block-inl.h(146)] Failed data load.
+[0926/034157.717:WARNING:storage_block-inl.h(146)] Failed data load.
+[0926/034157.718:ERROR:entry_impl.cc(998)] Failed to save user data
+[0926/034157.718:ERROR:entry_impl.cc(998)] Failed to save user data
+[0926/034159.410:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0926/034327.813:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0926/034327.813:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0926/034328.222:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0926/034328.222:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
