@@ -1297,3 +1297,60 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.25-15.08.43:153][589]LogFileHelpers: Saving map 'VRTemplateMap' took 0.027
 [2022.09.25-15.08.43:176][589]AssetCheck: New page: Asset Save: VRTemplateMap
 [2022.09.25-15.08.43:176][589]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.09.25-15.18.42:124][980]LogMaterial: Display: Missing cached shadermap for M_WeaponMaster_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 38320685AD7B7BCBC2029AD97B6630AB16064E93), compiling. 
+[2022.09.25-15.18.43:013][ 15]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-15.18.43:013][ 15]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-15.18.43:013][ 15]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_0
+[2022.09.25-15.18.43:015][ 15]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_0
+[2022.09.25-15.18.44:028][ 43]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-15.18.44:028][ 43]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-15.18.44:031][ 43]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_1
+[2022.09.25-15.18.44:034][ 43]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_1
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: ================================================
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Total job queries 179, among them cache hits 2 (1.12%)
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Tracking 142 distinct input hashes that result in 28 distinct outputs (19.72%)
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Shaders Compiled: 177
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Jobs assigned 177, completed 142 (80.23%)
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Average time worker was idle: 436.42 s
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Time job spent in pending queue: average 2.06 s, longest 93.52 s
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Job execution time: average 79.97 s, max 103.56 s
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Job life time (pending + execution): average 82.51 s, max 103.67
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 177.92 s
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Jobs were issued in 27 batches (only local compilation was used), average 6.56 jobs/batch
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Average processing rate: 0.80 jobs/sec
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Effective parallelization: 7.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.09.25-15.18.49:918][209]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 14.53 sec, max 15.88 sec, min 12.51 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   10 times, average 14.33 sec, max 15.72 sec, min 12.08 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 14.28 sec, max 15.93 sec, min 12.41 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   10 times, average 13.86 sec, max 15.88 sec, min 10.30 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   10 times, average 13.25 sec, max 15.31 sec, min 6.24 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 11.61% of total time (compiled   10 times, average 14.53 sec, max 15.88 sec, min 12.51 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 11.45% of total time (compiled   10 times, average 14.33 sec, max 15.72 sec, min 12.08 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 11.41% of total time (compiled   10 times, average 14.28 sec, max 15.93 sec, min 12.41 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 11.07% of total time (compiled   10 times, average 13.86 sec, max 15.88 sec, min 10.30 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 10.59% of total time (compiled   10 times, average 13.25 sec, max 15.31 sec, min 6.24 sec)
+[2022.09.25-15.18.49:919][209]LogShaderCompilers: Display: ================================================
+[2022.09.25-15.19.21:093][660]Cmd: MODE ROTGRID=0
+[2022.09.25-15.19.25:531][896]Cmd: MODE GRID=0
+[2022.09.25-15.19.49:876][327]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2022.09.25-15.19.49:876][327]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2022.09.25-15.19.49:876][327]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_2
+[2022.09.25-15.19.49:876][327]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_2
+[2022.09.25-15.19.50:888][386]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2022.09.25-15.19.50:888][386]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2022.09.25-15.19.50:892][386]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_3
+[2022.09.25-15.19.50:892][386]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_3
+[2022.09.25-15.20.18:761][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.25-15.20.18:965][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.25-15.20.18:979][ 43]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.09.25-15.20.18:980][ 43]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/VRTemplateMapF09DBC094B58E1945D76B8BA5F078289.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.09.25-15.20.18:989][ 43]LogFileHelpers: No new changes to save!
+[2022.09.25-15.20.18:989][ 43]LogFileHelpers: Saving map 'VRTemplateMap' took 0.032
+[2022.09.25-15.20.19:011][ 43]AssetCheck: New page: Asset Save: VRTemplateMap
+[2022.09.25-15.20.19:011][ 43]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.09.25-15.20.23:707][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
