@@ -1,0 +1,88 @@
+rootProject.name='app'
+include ':app'
+include ':downloader_library'
+include ':permission_library'
+	// copy files into AFSStub
+	File afs_infile = new File('gradle.properties')
+	File afs_outfile = new File('AFSProject/gradle.properties')
+	def afs_line = "";
+	afs_outfile.withWriter { writer ->
+		afs_infile.withReader { reader ->
+			while ((afs_line = reader.readLine()) != null) {
+				if (afs_line.startsWith('OUTPUT_FILENAME=')) {
+					writer.writeLine("OUTPUT_FILENAME=AFS_" + afs_line.substring(16));
+					continue;
+				}
+				else if (afs_line.startsWith('OUTPUT_BUNDLEFILENAME=')) {
+					writer.writeLine("OUTPUT_BUNDLEFILENAME=AFS_" + afs_line.substring(22));
+					continue;
+				}
+				writer.writeLine("${afs_line}")
+			}
+		}
+	}
+
+	afs_infile = new File('app/buildAdditions.gradle')
+	afs_outfile = new File('AFSProject/app/buildAdditions.gradle')
+	afs_line = "";
+	def bRemovingAFSBlock = false;
+	afs_outfile.withWriter { writer ->
+		afs_infile.withReader { reader ->
+			while ((afs_line = reader.readLine()) != null) {
+				if (bRemovingAFSBlock)
+				{
+					if (afs_line.startsWith('// --- End AFSProject ---'))
+					{
+						bRemovingAFSBlock = false;
+					}
+					continue;
+				}
+				if (afs_line.startsWith('// --- Begin AFSProject ---'))
+				{
+					bRemovingAFSBlock = true;
+					continue;
+				}
+				writer.writeLine("${afs_line}")
+			}
+		}
+	}
+
+	afs_infile = new File('app/src/main/AndroidManifest.xml')
+	afs_outfile = new File('AFSProject/app/src/main/AndroidManifest.xml')
+	def afs_hasReceiver = false
+	afs_outfile.withWriter { writer ->
+		afs_infile.withReader { reader ->
+			while ((afs_line = reader.readLine()) != null) {
+				if (afs_line.contains('com.epicgames.unreal.RemoteFileManagerReceiver')) {
+					afs_hasReceiver = true
+				} else if (afs_line.contains('</application>')) {
+					if (afs_hasReceiver == false) {
+						writer.writeLine('    <receiver android:name="com.epicgames.unreal.RemoteFileManagerReceiver" android:exported="true">')
+						writer.writeLine('      <intent-filter>')
+						writer.writeLine('        <action android:name="com.epicgames.unreal.RemoteFileManager.intent.COMMAND" />')
+						writer.writeLine('      </intent-filter>')
+						writer.writeLine('    </receiver>')
+					}
+				}
+				writer.writeLine("${afs_line}")
+			}
+		}
+	}
+
+	def afs_files = ["app/aar-imports.gradle", "app/abi.gradle", "app/build.gradle",
+		"baseBuildAdditions.gradle", "build.gradle", "buildscriptAdditions.gradle", "local.properties",
+		"gradlew", "gradlew.bat", "rungradle.bat"] as String[]
+	afs_files.eachWithIndex { v, i ->
+		afs_infile = new File(v)
+		if (afs_infile.exists()) {
+			afs_outfile = new File("AFSProject/" + v)
+			afs_outfile.withWriter { writer ->
+				afs_infile.withReader { reader ->
+					while ((afs_line = reader.readLine()) != null) {
+						writer.writeLine("${afs_line}")
+					}
+				}
+			}
+		}
+	}
+

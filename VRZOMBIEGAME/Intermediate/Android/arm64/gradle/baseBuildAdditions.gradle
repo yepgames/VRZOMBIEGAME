@@ -1,0 +1,13 @@
+allprojects 
+{
+	repositories 
+	{
+		repositories
+		{
+			flatDir
+			{
+dirs 'C:/Program Files/Epic Games/UE_5.0/Engine/Source/ThirdParty/GoogleGameSDK/gamesdk/aar'
+			}
+		}
+	}
+}

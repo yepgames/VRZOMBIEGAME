@@ -1,0 +1,1 @@
+../../../VRZOMBIEGAME/VRZOMBIEGAME.uproject /Game/VRTemplate/Maps/VRTemplateMap -Messaging -SessionId=C8ADB5E14392B28FDF1004B6EB896587 -SessionOwner="Rentorilla" -SessionName="Launch On Device"
