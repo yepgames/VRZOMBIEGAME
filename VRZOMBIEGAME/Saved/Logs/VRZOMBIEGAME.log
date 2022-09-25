@@ -758,3 +758,1088 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.25-16.43.14:414][971]AssetCheck: New page: Asset Save: VRTemplateMap
 [2022.09.25-16.43.14:414][971]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
 [2022.09.25-16.44.07:827][191]LogDerivedDataCache: C:/Users/Rentorilla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.468 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.25-16.46.38:228][648]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.46.38:242][648]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.46.38:315][648]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2022.09.25-16.46.38:332][648]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.46.38:672][648]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.46.45:548][ 33]LogSlate: Window 'Assault_Rifle_A' being destroyed
+[2022.09.25-16.46.45:554][ 33]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.46.45:554][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.46.52:053][329]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.25-16.46.52:053][329]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.25-16.46.58:599][398]LogEditorFactories: Performing atomic reimport of [C:/Users/Rentorilla/Desktop/Assault_Rifle_A.FBX]
+[2022.09.25-16.46.58:606][398]LogFbx: Loading FBX Scene from C:/Users/Rentorilla/Desktop/Assault_Rifle_A.FBX
+[2022.09.25-16.46.58:614][398]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.25-16.46.58:765][398]LogFbx: Valid bind pose for Pose (Assault_Rifle_A) - Assault_Rifle_A1
+[2022.09.25-16.46.58:773][398]LogFbx: Warning: Bones digested - 6  Depth of hierarchy - 3
+[2022.09.25-16.46.58:857][398]LogSkeletalMesh: Section 0: Material=0, 6317 triangles
+[2022.09.25-16.46.58:865][398]LogEditorFactories: -- imported successfully
+[2022.09.25-16.46.58:882][398]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_A...
+[2022.09.25-16.46.58:882][398]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (Assault_Rifle_A) ...
+[2022.09.25-16.46.58:947][398]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.46.58:947][398]FBXImport: FBX File Loading: Found name clash, node 'Assault_Rifle_A' was renamed to 'Assault_Rifle_A1' 
+[2022.09.25-16.46.58:947][398]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.25-16.47.05:296][566]LogEditorFactories: Performing atomic reimport of [C:/Users/Rentorilla/Desktop/untitled.fbx]
+[2022.09.25-16.47.05:303][566]LogFbx: Loading FBX Scene from C:/Users/Rentorilla/Desktop/untitled.fbx
+[2022.09.25-16.47.05:311][566]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.25-16.47.05:488][566]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.25-16.47.05:569][566]LogSkeletalMesh: Section 0: Material=0, 6317 triangles
+[2022.09.25-16.47.07:853][566]LogSlate: Window 'Message' being destroyed
+[2022.09.25-16.47.07:856][566]Message dialog closed, result: YesAll, title: Message, text: FAILED TO MERGE BONES:
+
+ This could happen if significant hierarchical changes have been made
+e.g. inserting a bone between nodes.
+Would you like to regenerate the Skeleton from this mesh?
+
+***WARNING: THIS MAY INVALIDATE OR REQUIRE RECOMPRESSION OF ANIMATION DATA.***
+
+[2022.09.25-16.47.11:638][566]LogSlate: Window 'Message' being destroyed
+[2022.09.25-16.47.11:641][566]Message dialog closed, result: Yes, title: Message, text: Would you like to merge all SkeletalMeshes using this skeleton to ensure all bones are merged? This will require to load those SkeletalMeshes.
+[2022.09.25-16.47.11:765][566]LogEditorFactories: -- imported successfully
+[2022.09.25-16.47.11:782][566]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_A...
+[2022.09.25-16.47.11:782][566]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (Assault_Rifle_A) ...
+[2022.09.25-16.47.11:845][566]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.47.11:845][566]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.47.11:845][566]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.25-16.47.11:845][566]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2022.09.25-16.47.11:852][566]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.47.29:102][570]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.47.29:103][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.29:115][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.47.29:211][570]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.47.29:373][570]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.47.35:177][884]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Skeleton.Assault_Rifle_A_Skeleton
+[2022.09.25-16.47.35:178][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.35:186][884]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.47.35:202][884]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.47.35:316][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.35:385][884]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.47.37:413][  2]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.37:413][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.37:461][  2]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.37:461][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.39:012][ 94]LogSlate: Window 'Assault_Rifle_A' being destroyed
+[2022.09.25-16.47.39:017][ 94]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.39:018][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.43:989][373]LogViewport: Scene viewport resized to 1571x479, mode Windowed.
+[2022.09.25-16.47.44:018][374]LogViewport: Scene viewport resized to 1556x479, mode Windowed.
+[2022.09.25-16.47.44:049][375]LogViewport: Scene viewport resized to 1519x479, mode Windowed.
+[2022.09.25-16.47.44:075][376]LogViewport: Scene viewport resized to 1473x479, mode Windowed.
+[2022.09.25-16.47.44:104][377]LogViewport: Scene viewport resized to 1425x479, mode Windowed.
+[2022.09.25-16.47.44:133][378]LogViewport: Scene viewport resized to 1376x479, mode Windowed.
+[2022.09.25-16.47.44:161][379]LogViewport: Scene viewport resized to 1337x479, mode Windowed.
+[2022.09.25-16.47.44:188][380]LogViewport: Scene viewport resized to 1303x479, mode Windowed.
+[2022.09.25-16.47.44:215][381]LogViewport: Scene viewport resized to 1270x479, mode Windowed.
+[2022.09.25-16.47.44:243][382]LogViewport: Scene viewport resized to 1233x479, mode Windowed.
+[2022.09.25-16.47.44:275][383]LogViewport: Scene viewport resized to 1193x479, mode Windowed.
+[2022.09.25-16.47.44:301][384]LogViewport: Scene viewport resized to 1159x479, mode Windowed.
+[2022.09.25-16.47.44:328][385]LogViewport: Scene viewport resized to 1125x479, mode Windowed.
+[2022.09.25-16.47.44:357][386]LogViewport: Scene viewport resized to 1098x479, mode Windowed.
+[2022.09.25-16.47.44:385][387]LogViewport: Scene viewport resized to 1086x479, mode Windowed.
+[2022.09.25-16.47.44:412][388]LogViewport: Scene viewport resized to 1085x479, mode Windowed.
+[2022.09.25-16.47.46:479][503]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Skeleton.Assault_Rifle_A_Skeleton
+[2022.09.25-16.47.46:480][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.46:488][503]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.47.46:580][503]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.47.46:699][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.46:764][503]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.47.49:208][637]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.47.49:209][637]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.49:217][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.47.49:236][637]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.47.49:408][637]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.47.50:373][690]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave Rifle_Reload01...
+[2022.09.25-16.47.50:375][690]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 45252 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload01.Rifle_Reload01.
+[2022.09.25-16.47.50:375][690]LogAudio: Display: Chunk size for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload01.Rifle_Reload01: 262144
+[2022.09.25-16.47.50:377][690]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave Rifle_Reload02...
+[2022.09.25-16.47.50:381][690]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 42110 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload02.Rifle_Reload02.
+[2022.09.25-16.47.50:381][690]LogAudio: Display: Chunk size for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload02.Rifle_Reload02: 262144
+[2022.09.25-16.47.50:383][690]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave Rifle_Reload03...
+[2022.09.25-16.47.50:386][690]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 42580 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload03.Rifle_Reload03.
+[2022.09.25-16.47.50:386][690]LogAudio: Display: Chunk size for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload03.Rifle_Reload03: 262144
+[2022.09.25-16.47.50:391][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_Reload_Cue.Rifle_Reload_Cue:SoundCueGraph_9.SoundCueGraphNode_102' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:391][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_Reload_Cue.Rifle_Reload_Cue:SoundCueGraph_9.SoundCueGraphNode_123' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:391][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_Reload_Cue.Rifle_Reload_Cue:SoundCueGraph_9.SoundCueGraphNode_Root_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_101' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_103' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_121' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_123' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_Root_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2022.09.25-16.47.50:392][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to retrieve bone index for track: Root_Bone1
+[2022.09.25-16.47.50:393][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to retrieve bone index for track: Grip_Bone
+[2022.09.25-16.47.50:393][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to retrieve bone index for track: Clip_Bone
+[2022.09.25-16.47.50:393][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to retrieve bone index for track: Slide_Bone
+[2022.09.25-16.47.50:393][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to retrieve bone index for track: Trigger_Bone
+[2022.09.25-16.47.50:393][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to retrieve bone index for track: Ammo
+[2022.09.25-16.47.50:394][690]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W.Reload_Rifle_Ironsights_W
+[2022.09.25-16.47.50:394][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to find bone index, animation track will be removed: Root_Bone1
+[2022.09.25-16.47.50:394][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to find bone index, animation track will be removed: Grip_Bone
+[2022.09.25-16.47.50:394][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to find bone index, animation track will be removed: Clip_Bone
+[2022.09.25-16.47.50:394][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to find bone index, animation track will be removed: Slide_Bone
+[2022.09.25-16.47.50:394][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to find bone index, animation track will be removed: Trigger_Bone
+[2022.09.25-16.47.50:394][690]LogScript: Warning: Script Msg: /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W : Unable to find bone index, animation track will be removed: Ammo
+[2022.09.25-16.47.50:397][690]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W.Reload_Rifle_Ironsights_W
+[2022.09.25-16.47.50:397][690]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W.Reload_Rifle_Ironsights_W
+[2022.09.25-16.47.50:397][690]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.50:406][690]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.47.50:423][690]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.47.50:538][690]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.50:629][690]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.25-16.47.50:636][690]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.47.50:662][690]LogViewport: Scene viewport resized to 1078x538, mode Windowed.
+[2022.09.25-16.47.50:686][690]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.25-16.47.52:747][803]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.52:747][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.52:757][803]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.52:757][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.52:812][803]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.52:812][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.54:583][907]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.54:583][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.56:563][ 15]LogSlate: Window 'Assault_Rifle_A_Skeleton' being destroyed
+[2022.09.25-16.47.56:568][ 15]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.56:568][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.47.56:624][ 15]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.47.56:624][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.48.09:130][762]Cmd: TRANSACTION UNDO
+[2022.09.25-16.48.09:130][762]LogEditorTransaction: Undo Reset Scale
+[2022.09.25-16.48.16:112][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.16:113][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.16:113][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.16:113][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.16:113][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.16:113][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.20:913][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.20:914][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.20:914][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.20:914][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.20:914][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.20:914][448]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.22:795][561]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.22:795][561]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.22:795][561]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.22:796][561]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.22:796][561]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.22:796][561]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.36:934][404]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.36:934][404]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.36:934][404]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.36:934][404]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.36:935][404]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.36:935][404]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.40:617][625]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.40:618][625]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.40:618][625]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.40:618][625]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.40:618][625]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.40:619][625]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.44:089][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.44:090][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.44:090][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.44:090][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.44:090][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.48.44:090][833]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.03:650][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.03:651][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.03:651][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.03:651][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.03:651][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.03:652][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.07:450][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.07:450][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.07:450][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.07:450][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.07:451][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.07:451][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.11:669][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.11:669][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.11:669][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.11:669][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.11:670][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.11:670][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.31:904][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.31:904][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.31:904][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.31:904][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.31:904][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.31:905][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.36:737][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.36:738][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.36:738][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.36:738][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.36:738][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.36:739][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.43:571][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.43:572][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.43:572][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.43:572][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.43:572][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.43:572][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.55:879][103]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.55:880][103]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.55:880][103]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.55:880][103]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.55:880][103]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.55:881][103]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.59:129][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.59:129][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.59:129][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.59:130][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.59:130][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.49.59:130][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.01:777][457]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.01:777][457]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.01:777][457]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.01:778][457]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.01:778][457]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.01:778][457]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.05:846][687]LogViewport: Scene viewport resized to 1086x479, mode Windowed.
+[2022.09.25-16.50.05:886][688]LogViewport: Scene viewport resized to 1093x479, mode Windowed.
+[2022.09.25-16.50.05:911][689]LogViewport: Scene viewport resized to 1123x479, mode Windowed.
+[2022.09.25-16.50.05:937][690]LogViewport: Scene viewport resized to 1158x479, mode Windowed.
+[2022.09.25-16.50.05:966][691]LogViewport: Scene viewport resized to 1203x479, mode Windowed.
+[2022.09.25-16.50.05:996][692]LogViewport: Scene viewport resized to 1240x479, mode Windowed.
+[2022.09.25-16.50.06:025][693]LogViewport: Scene viewport resized to 1256x479, mode Windowed.
+[2022.09.25-16.50.06:055][694]LogViewport: Scene viewport resized to 1261x479, mode Windowed.
+[2022.09.25-16.50.06:117][697]LogViewport: Scene viewport resized to 1265x479, mode Windowed.
+[2022.09.25-16.50.06:140][698]LogViewport: Scene viewport resized to 1269x479, mode Windowed.
+[2022.09.25-16.50.06:170][699]LogViewport: Scene viewport resized to 1277x479, mode Windowed.
+[2022.09.25-16.50.06:200][700]LogViewport: Scene viewport resized to 1287x479, mode Windowed.
+[2022.09.25-16.50.06:230][701]LogViewport: Scene viewport resized to 1298x479, mode Windowed.
+[2022.09.25-16.50.06:258][702]LogViewport: Scene viewport resized to 1310x479, mode Windowed.
+[2022.09.25-16.50.06:287][703]LogViewport: Scene viewport resized to 1322x479, mode Windowed.
+[2022.09.25-16.50.06:315][704]LogViewport: Scene viewport resized to 1335x479, mode Windowed.
+[2022.09.25-16.50.06:343][705]LogViewport: Scene viewport resized to 1341x479, mode Windowed.
+[2022.09.25-16.50.06:371][706]LogViewport: Scene viewport resized to 1342x479, mode Windowed.
+[2022.09.25-16.50.06:414][708]LogViewport: Scene viewport resized to 1344x479, mode Windowed.
+[2022.09.25-16.50.06:440][709]LogViewport: Scene viewport resized to 1349x479, mode Windowed.
+[2022.09.25-16.50.06:469][710]LogViewport: Scene viewport resized to 1353x479, mode Windowed.
+[2022.09.25-16.50.06:497][711]LogViewport: Scene viewport resized to 1356x479, mode Windowed.
+[2022.09.25-16.50.06:525][712]LogViewport: Scene viewport resized to 1359x479, mode Windowed.
+[2022.09.25-16.50.08:275][816]LogViewport: Scene viewport resized to 1359x482, mode Windowed.
+[2022.09.25-16.50.08:297][817]LogViewport: Scene viewport resized to 1359x484, mode Windowed.
+[2022.09.25-16.50.08:324][818]LogViewport: Scene viewport resized to 1359x491, mode Windowed.
+[2022.09.25-16.50.08:346][819]LogViewport: Scene viewport resized to 1359x502, mode Windowed.
+[2022.09.25-16.50.08:373][820]LogViewport: Scene viewport resized to 1359x516, mode Windowed.
+[2022.09.25-16.50.08:394][821]LogViewport: Scene viewport resized to 1359x529, mode Windowed.
+[2022.09.25-16.50.08:422][822]LogViewport: Scene viewport resized to 1359x544, mode Windowed.
+[2022.09.25-16.50.08:443][823]LogViewport: Scene viewport resized to 1359x553, mode Windowed.
+[2022.09.25-16.50.08:471][824]LogViewport: Scene viewport resized to 1359x564, mode Windowed.
+[2022.09.25-16.50.08:493][825]LogViewport: Scene viewport resized to 1359x574, mode Windowed.
+[2022.09.25-16.50.08:516][826]LogViewport: Scene viewport resized to 1359x584, mode Windowed.
+[2022.09.25-16.50.08:538][827]LogViewport: Scene viewport resized to 1359x594, mode Windowed.
+[2022.09.25-16.50.08:560][828]LogViewport: Scene viewport resized to 1359x605, mode Windowed.
+[2022.09.25-16.50.08:591][829]LogViewport: Scene viewport resized to 1359x624, mode Windowed.
+[2022.09.25-16.50.08:617][830]LogViewport: Scene viewport resized to 1359x635, mode Windowed.
+[2022.09.25-16.50.08:639][831]LogViewport: Scene viewport resized to 1359x644, mode Windowed.
+[2022.09.25-16.50.08:661][832]LogViewport: Scene viewport resized to 1359x650, mode Windowed.
+[2022.09.25-16.50.08:683][833]LogViewport: Scene viewport resized to 1359x656, mode Windowed.
+[2022.09.25-16.50.08:711][834]LogViewport: Scene viewport resized to 1359x665, mode Windowed.
+[2022.09.25-16.50.08:733][835]LogViewport: Scene viewport resized to 1359x672, mode Windowed.
+[2022.09.25-16.50.08:760][836]LogViewport: Scene viewport resized to 1359x682, mode Windowed.
+[2022.09.25-16.50.08:784][837]LogViewport: Scene viewport resized to 1359x687, mode Windowed.
+[2022.09.25-16.50.08:806][838]LogViewport: Scene viewport resized to 1359x692, mode Windowed.
+[2022.09.25-16.50.08:828][839]LogViewport: Scene viewport resized to 1359x694, mode Windowed.
+[2022.09.25-16.50.08:866][841]LogViewport: Scene viewport resized to 1359x697, mode Windowed.
+[2022.09.25-16.50.08:892][842]LogViewport: Scene viewport resized to 1359x698, mode Windowed.
+[2022.09.25-16.50.08:931][843]LogViewport: Scene viewport resized to 1359x696, mode Windowed.
+[2022.09.25-16.50.38:460][609]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.25-16.50.38:466][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-16.50.38:466][609]PIE: New page: PIE session: VRTemplateMap (26 Sep 2022, 11:50:38 am)
+[2022.09.25-16.50.38:469][609]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.09.25-16.50.38:469][609]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.09.25-16.50.38:469][609]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2022.09.25-16.50.38:473][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003980s)
+[2022.09.25-16.50.38:473][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.004052s)
+[2022.09.25-16.50.38:473][609]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-16.50.38:474][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.50.38:474][609]LogAIModule: Creating AISystem for world VRTemplateMap
+[2022.09.25-16.50.38:474][609]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2022.09.25-16.50.38:484][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.09.25-16.50.38:493][609]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.25-16.50.38:493][609]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.09.25-16.50.38:493][609]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-16.50.38:494][609]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.09.25-16.50.38:494][609]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.09.25-16.50.38:494][609]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.25-16.50.38:496][609]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.25-16.50.38:528][609]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.09.25-16.50.38:528][609]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-16.50.38:528][609]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-16.50.38:528][609]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-16.50.38:529][609]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.09.25-16.50.38:529][609]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.09.25-16.50.38:530][609]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.09.25-16.50.38:530][609]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.09.25-16.50.38:530][609]LogInit: FAudioDevice initialized.
+[2022.09.25-16.50.38:530][609]LogAudio: Display: Audio Device (ID: 2) registered with world 'VRTemplateMap'.
+[2022.09.25-16.50.38:542][609]LogLoad: Game class is 'VRGameMode_C'
+[2022.09.25-16.50.38:543][609]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.50.38:544][609]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 60) at 2022.09.26-02.20.38
+[2022.09.25-16.50.38:544][609]LogWorld: Bringing up level for play took: 0.002482
+[2022.09.25-16.50.38:549][609]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2022.09.25-16.50.38:550][609]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.09.25-16.50.38:557][609]PIE: Server logged in
+[2022.09.25-16.50.38:558][609]PIE: Play in editor total start time 0.092 seconds.
+[2022.09.25-16.50.38:590][609]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.09.25-16.50.40:303][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-16.50.40:303][710]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2022.09.25-16.50.40:304][710]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.50.40:304][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.50.40:317][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-16.50.40:318][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.50.40:323][710]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-16.50.40:324][710]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.09.25-16.50.40:324][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.09.25-16.50.40:325][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.09.25-16.50.40:330][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-16.50.40:331][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.25-16.50.40:384][712]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.09.25-16.50.43:658][908]LogViewport: Scene viewport resized to 1359x694, mode Windowed.
+[2022.09.25-16.50.43:685][909]LogViewport: Scene viewport resized to 1359x686, mode Windowed.
+[2022.09.25-16.50.43:712][910]LogViewport: Scene viewport resized to 1359x664, mode Windowed.
+[2022.09.25-16.50.43:742][911]LogViewport: Scene viewport resized to 1359x636, mode Windowed.
+[2022.09.25-16.50.43:774][912]LogViewport: Scene viewport resized to 1359x607, mode Windowed.
+[2022.09.25-16.50.43:807][913]LogViewport: Scene viewport resized to 1359x591, mode Windowed.
+[2022.09.25-16.50.43:838][914]LogViewport: Scene viewport resized to 1359x586, mode Windowed.
+[2022.09.25-16.50.55:669][622]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-16.50.58:915][816]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-16.51.01:430][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.25-16.51.01:691][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.09.25-16.51.01:704][960]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.09.25-16.51.01:705][960]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/VRTemplateMapF503910E406697C1564B0B9E6DBC0278.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.09.25-16.51.01:715][960]LogFileHelpers: No new changes to save!
+[2022.09.25-16.51.01:715][960]LogFileHelpers: Saving map 'VRTemplateMap' took 0.030
+[2022.09.25-16.51.01:747][960]LogSavePackage: Moving output files for package: /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A
+[2022.09.25-16.51.01:748][960]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/Assault_Rifle_A471622E740E1DC5B7192898938602F2F.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/MilitaryWeapSilver/Weapons/Assault_Rifle_A.uasset'
+[2022.09.25-16.51.01:758][960]LogSavePackage: Moving output files for package: /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Skeleton
+[2022.09.25-16.51.01:759][960]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/Assault_Rifle_A_SkeletonADE59538441B9862D65A4B89BBA0FDB4.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Skeleton.uasset'
+[2022.09.25-16.51.01:772][960]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.25-16.51.01:773][960]LogContentValidation: Display: Validating Skeleton /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Skeleton.Assault_Rifle_A_Skeleton
+[2022.09.25-16.51.01:773][960]LogContentValidation: Display: Validating SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.51.01:773][960]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.09.25-16.51.02:413][999]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.25-16.51.02:419][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-16.51.02:419][999]PIE: New page: PIE session: VRTemplateMap (26 Sep 2022, 11:51:02 am)
+[2022.09.25-16.51.02:419][999]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2022.09.25-16.51.02:423][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003832s)
+[2022.09.25-16.51.02:423][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.003896s)
+[2022.09.25-16.51.02:423][999]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-16.51.02:423][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.51.02:423][999]LogAIModule: Creating AISystem for world VRTemplateMap
+[2022.09.25-16.51.02:423][999]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2022.09.25-16.51.02:430][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.09.25-16.51.02:431][999]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.25-16.51.02:431][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.09.25-16.51.02:431][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-16.51.02:431][999]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.09.25-16.51.02:431][999]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.09.25-16.51.02:431][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.25-16.51.02:433][999]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.25-16.51.02:465][999]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.09.25-16.51.02:466][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-16.51.02:466][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-16.51.02:466][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-16.51.02:467][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.09.25-16.51.02:467][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.09.25-16.51.02:468][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.09.25-16.51.02:468][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.09.25-16.51.02:468][999]LogInit: FAudioDevice initialized.
+[2022.09.25-16.51.02:468][999]LogAudio: Display: Audio Device (ID: 3) registered with world 'VRTemplateMap'.
+[2022.09.25-16.51.02:483][999]LogLoad: Game class is 'VRGameMode_C'
+[2022.09.25-16.51.02:484][999]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.51.02:485][999]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 60) at 2022.09.26-02.21.02
+[2022.09.25-16.51.02:486][999]LogWorld: Bringing up level for play took: 0.002177
+[2022.09.25-16.51.02:487][999]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.09.25-16.51.02:488][999]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.09.25-16.51.02:488][999]PIE: Server logged in
+[2022.09.25-16.51.02:489][999]PIE: Play in editor total start time 0.071 seconds.
+[2022.09.25-16.51.02:514][999]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.09.25-16.51.04:474][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-16.51.04:474][115]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2022.09.25-16.51.04:474][115]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.51.04:474][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.51.04:484][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-16.51.04:486][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.51.04:491][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-16.51.04:491][115]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.09.25-16.51.04:491][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.25-16.51.04:493][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.25-16.51.04:499][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.25-16.51.04:560][117]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.09.25-16.51.45:666][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.09.25-16.54.17:858][309]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.09.25-16.54.17:859][309]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.54.17:880][309]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.54.17:999][309]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.54.18:164][309]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.54.24:507][656]LogSlate: Window 'Assault_Rifle_A' being destroyed
+[2022.09.25-16.54.24:512][656]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.54.24:512][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.54.26:449][766]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Skeleton.Assault_Rifle_A_Skeleton
+[2022.09.25-16.54.26:450][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.54.26:460][766]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.25-16.54.26:556][766]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2022.09.25-16.54.26:675][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.54.26:742][766]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.09.25-16.54.30:772][992]LogSlate: Window 'Assault_Rifle_A_Skeleton' being destroyed
+[2022.09.25-16.54.30:779][992]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.54.30:779][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.54.30:836][992]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.54.30:836][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.54.32:780][108]LogViewport: Scene viewport resized to 1359x585, mode Windowed.
+[2022.09.25-16.54.32:809][109]LogViewport: Scene viewport resized to 1359x579, mode Windowed.
+[2022.09.25-16.54.32:837][110]LogViewport: Scene viewport resized to 1359x567, mode Windowed.
+[2022.09.25-16.54.32:867][111]LogViewport: Scene viewport resized to 1359x553, mode Windowed.
+[2022.09.25-16.54.32:895][112]LogViewport: Scene viewport resized to 1359x541, mode Windowed.
+[2022.09.25-16.54.32:923][113]LogViewport: Scene viewport resized to 1359x531, mode Windowed.
+[2022.09.25-16.54.32:952][114]LogViewport: Scene viewport resized to 1359x525, mode Windowed.
+[2022.09.25-16.54.32:980][115]LogViewport: Scene viewport resized to 1359x516, mode Windowed.
+[2022.09.25-16.54.33:008][116]LogViewport: Scene viewport resized to 1359x504, mode Windowed.
+[2022.09.25-16.54.33:036][117]LogViewport: Scene viewport resized to 1359x497, mode Windowed.
+[2022.09.25-16.54.33:064][118]LogViewport: Scene viewport resized to 1359x489, mode Windowed.
+[2022.09.25-16.54.33:091][119]LogViewport: Scene viewport resized to 1359x482, mode Windowed.
+[2022.09.25-16.54.33:120][120]LogViewport: Scene viewport resized to 1359x476, mode Windowed.
+[2022.09.25-16.54.33:181][123]LogViewport: Scene viewport resized to 1359x475, mode Windowed.
+[2022.09.25-16.54.33:210][124]LogViewport: Scene viewport resized to 1359x472, mode Windowed.
+[2022.09.25-16.54.33:240][125]LogViewport: Scene viewport resized to 1359x469, mode Windowed.
+[2022.09.25-16.54.33:270][126]LogViewport: Scene viewport resized to 1359x466, mode Windowed.
+[2022.09.25-16.54.33:300][127]LogViewport: Scene viewport resized to 1359x463, mode Windowed.
+[2022.09.25-16.54.33:343][129]LogViewport: Scene viewport resized to 1359x462, mode Windowed.
+[2022.09.25-16.56.15:266][499]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C8B4B4A63C178FD04B072D7D4B074FDE48C52E96), compiling. 
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: ================================================
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Job execution time: average 1.53 s, max 1.53 s
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Job life time (pending + execution): average 1.55 s, max 1.55
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.55 s
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Average processing rate: 0.65 jobs/sec
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Effective parallelization: 0.82 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2022.09.25-16.56.16:849][572]LogShaderCompilers: Display: ================================================
+[2022.09.25-16.57.07:359][616]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/AssaultRifle.AssaultRifle
+[2022.09.25-16.57.07:359][616]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-16.57.08:370][616]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.08:377][616]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.25-16.57.10:048][703]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.25-16.57.12:982][869]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.12:982][869]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.12:982][869]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.12:982][869]LogViewport: Scene viewport resized to 1302x384, mode Windowed.
+[2022.09.25-16.57.15:926][ 43]LogViewport: Scene viewport resized to 1302x382, mode Windowed.
+[2022.09.25-16.57.15:958][ 44]LogViewport: Scene viewport resized to 1302x385, mode Windowed.
+[2022.09.25-16.57.15:989][ 45]LogViewport: Scene viewport resized to 1302x395, mode Windowed.
+[2022.09.25-16.57.16:024][ 46]LogViewport: Scene viewport resized to 1302x420, mode Windowed.
+[2022.09.25-16.57.16:059][ 47]LogViewport: Scene viewport resized to 1302x456, mode Windowed.
+[2022.09.25-16.57.16:094][ 48]LogViewport: Scene viewport resized to 1302x497, mode Windowed.
+[2022.09.25-16.57.16:128][ 49]LogViewport: Scene viewport resized to 1302x545, mode Windowed.
+[2022.09.25-16.57.16:157][ 50]LogViewport: Scene viewport resized to 1302x571, mode Windowed.
+[2022.09.25-16.57.16:193][ 51]LogViewport: Scene viewport resized to 1302x588, mode Windowed.
+[2022.09.25-16.57.16:226][ 52]LogViewport: Scene viewport resized to 1302x601, mode Windowed.
+[2022.09.25-16.57.16:255][ 53]LogViewport: Scene viewport resized to 1302x615, mode Windowed.
+[2022.09.25-16.57.16:285][ 54]LogViewport: Scene viewport resized to 1302x628, mode Windowed.
+[2022.09.25-16.57.16:320][ 55]LogViewport: Scene viewport resized to 1302x632, mode Windowed.
+[2022.09.25-16.57.16:424][ 60]LogViewport: Scene viewport resized to 1302x631, mode Windowed.
+[2022.09.25-16.57.55:020][638]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:021][638]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:046][639]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:047][639]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:070][640]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:070][640]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:092][641]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:092][641]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:113][642]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:113][642]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:132][643]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:133][643]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:151][644]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:151][644]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:171][645]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:171][645]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:189][646]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:189][646]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:209][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:209][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:228][648]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:229][648]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:247][649]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:247][649]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:265][650]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:266][650]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:285][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:285][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:304][652]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:304][652]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:322][653]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:323][653]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:342][654]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:342][654]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:361][655]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:361][655]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:381][656]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:381][656]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:400][657]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:401][657]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:420][658]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:420][658]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:438][659]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:438][659]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:458][660]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:458][660]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:476][661]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:477][661]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:494][662]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:495][662]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:514][663]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:514][663]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:532][664]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:533][664]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:551][665]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:551][665]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:569][666]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.57.55:569][666]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:093][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:094][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:112][223]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:112][223]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:131][224]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:132][224]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:150][225]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:150][225]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:168][226]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:168][226]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:187][227]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:188][227]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:207][228]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:208][228]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:227][229]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:227][229]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:245][230]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:245][230]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:263][231]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:263][231]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:283][232]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:283][232]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:302][233]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:302][233]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:319][234]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:320][234]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:340][235]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:341][235]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:359][236]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:360][236]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:379][237]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:379][237]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:398][238]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:398][238]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:416][239]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:417][239]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:435][240]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:435][240]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:454][241]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:455][241]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:473][242]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:474][242]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:492][243]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:493][243]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:510][244]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:511][244]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:528][245]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:529][245]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:547][246]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:548][246]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:566][247]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:566][247]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:585][248]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:586][248]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:606][249]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:607][249]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:626][250]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:627][250]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:644][251]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.05:645][251]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:279][288]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:279][288]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:328][291]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:329][291]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:345][292]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:345][292]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:365][293]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:365][293]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:384][294]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:384][294]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:404][295]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:404][295]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:422][296]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:423][296]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:443][297]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:443][297]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:461][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:461][298]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:480][299]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:480][299]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:499][300]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:499][300]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:517][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:518][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:536][302]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:536][302]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:554][303]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:555][303]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:575][304]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:575][304]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:593][305]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:594][305]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:612][306]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:612][306]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:631][307]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:631][307]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:652][308]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:652][308]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:671][309]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:671][309]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:691][310]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:691][310]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:710][311]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:710][311]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:729][312]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:730][312]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:747][313]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:748][313]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:766][314]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:766][314]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:784][315]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:785][315]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:802][316]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:803][316]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:821][317]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:821][317]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:858][319]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:858][319]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:880][320]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:881][320]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:898][321]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:898][321]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:917][322]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:917][322]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:935][323]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.06:935][323]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:441][642]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:441][642]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:458][643]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:459][643]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:495][645]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:496][645]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:514][646]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:514][646]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:533][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:533][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:570][649]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:570][649]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:587][650]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:587][650]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:606][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:606][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:674][655]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:674][655]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:692][656]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:692][656]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:761][660]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:761][660]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:829][664]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:829][664]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:847][665]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:847][665]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:882][667]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.12:882][667]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.13:018][675]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.13:018][675]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.13:050][677]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.13:051][677]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:575][881]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:575][881]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:593][882]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:594][882]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:611][883]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:612][883]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:630][884]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:630][884]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:650][885]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:650][885]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:671][886]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:671][886]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:688][887]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:689][887]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:707][888]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:707][888]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:724][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:725][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:745][890]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:745][890]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:763][891]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:763][891]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:781][892]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:782][892]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:800][893]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:800][893]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:820][894]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:820][894]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:839][895]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:839][895]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:858][896]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:858][896]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:876][897]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:877][897]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:894][898]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:894][898]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:913][899]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:913][899]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:932][900]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:933][900]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:952][901]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:953][901]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:970][902]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:970][902]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:990][903]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.16:990][903]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:009][904]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:010][904]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:028][905]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:028][905]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:045][906]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:046][906]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:063][907]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:064][907]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:081][908]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:082][908]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:370][925]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:371][925]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:388][926]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:388][926]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:407][927]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:407][927]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:426][928]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:426][928]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:461][930]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:462][930]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:479][931]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:479][931]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:497][932]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:497][932]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:515][933]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:515][933]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:550][935]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.17:550][935]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.18:070][966]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.18:070][966]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:480][ 98]BlueprintLog: New page: Compile AssaultRifle
+[2022.09.25-16.58.20:492][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:492][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:493][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:493][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:542][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.09.25-16.58.20:545][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:545][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:545][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:546][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:547][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:547][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:552][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:553][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:553][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.58.20:553][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:553][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:553][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:589][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:589][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.20:589][ 98]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.58.21:519][133]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/AssaultRifle
+[2022.09.25-16.58.21:520][133]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/AssaultRifleDCFA536F45379118248E74AEDCC13D14.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/VRTemplate/Blueprints/AssaultRifle.uasset'
+[2022.09.25-16.58.21:536][133]AssetCheck: New page: Asset Save: AssaultRifle
+[2022.09.25-16.58.21:536][133]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/AssaultRifle.AssaultRifle
+[2022.09.25-16.59.01:925][990]BlueprintLog: New page: Compile AssaultRifle
+[2022.09.25-16.59.01:938][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:938][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:938][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:938][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:979][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.09.25-16.59.01:982][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:982][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:982][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:982][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:983][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:983][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:990][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:991][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:991][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.AssaultRifle_C_1.SkeletalMeshGun'
+[2022.09.25-16.59.01:991][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:991][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.01:991][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.AssaultRifle_C_0.SkeletalMeshGun'
+[2022.09.25-16.59.02:821][ 15]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/AssaultRifle
+[2022.09.25-16.59.02:822][ 15]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/AssaultRifleA8ECDD614682012A3301FD912CD95352.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/VRTemplate/Blueprints/AssaultRifle.uasset'
+[2022.09.25-16.59.02:837][ 15]AssetCheck: New page: Asset Save: AssaultRifle
+[2022.09.25-16.59.02:837][ 15]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/AssaultRifle.AssaultRifle
+[2022.09.25-16.59.23:964][122]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/AssaultRifle
+[2022.09.25-16.59.23:965][122]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/AssaultRifle79FA66C14926C0F94AB9E3BAEA6EE40F.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/VRTemplate/Blueprints/AssaultRifle.uasset'
+[2022.09.25-16.59.23:981][122]AssetCheck: New page: Asset Save: AssaultRifle
+[2022.09.25-16.59.23:981][122]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/AssaultRifle.AssaultRifle
+[2022.09.25-16.59.25:473][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.09.25-16.59.25:668][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.09.25-16.59.25:680][204]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.09.25-16.59.25:681][204]LogSavePackage: Moving '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Saved/VRTemplateMapCCCDA4614A65AA77873FB7BF8F5A8C23.tmp' to '../../../../../../Users/Rentorilla/Desktop/VRZOMBIEGAME/VRZOMBIEGAME/VRZOMBIEGAME/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.09.25-16.59.25:690][204]LogFileHelpers: No new changes to save!
+[2022.09.25-16.59.25:690][204]LogFileHelpers: Saving map 'VRTemplateMap' took 0.046
+[2022.09.25-16.59.25:706][204]AssetCheck: New page: Asset Save: VRTemplateMap
+[2022.09.25-16.59.25:706][204]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.09.25-16.59.29:357][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.09.25-16.59.29:358][420]LogStall: Shutdown...
+[2022.09.25-16.59.29:364][420]LogStall: Shutdown complete.
+[2022.09.25-16.59.29:385][420]LogSlate: Window 'AssaultRifle' being destroyed
+[2022.09.25-16.59.29:396][420]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.29:396][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-16.59.29:464][420]LogSlate: Window 'VRZOMBIEGAME - Unreal Editor' being destroyed
+[2022.09.25-16.59.29:576][421]Cmd: QUIT_EDITOR
+[2022.09.25-16.59.29:576][421]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.09.25-16.59.29:581][421]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.09.25-16.59.29:582][421]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.09.25-16.59.29:582][421]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.09.25-16.59.29:861][421]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.09.25-16.59.29:861][421]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.09.25-16.59.29:861][421]LogAudio: Display: Audio Device unregistered from world 'VRTemplateMap'.
+[2022.09.25-16.59.29:861][421]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.09.25-16.59.29:861][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.09.25-16.59.29:863][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.09.25-16.59.29:869][421]LogAudio: Display: Audio Device Manager Shutdown
+[2022.09.25-16.59.29:869][421]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.09.25-16.59.29:873][421]LogExit: Preparing to exit.
+[2022.09.25-16.59.29:898][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.29:903][421]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.25-16.59.32:777][421]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:779][421]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:782][421]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:784][421]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:786][421]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:789][421]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:791][421]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:793][421]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:795][421]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:797][421]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:799][421]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:801][421]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:803][421]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:807][421]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-16.59.32:858][421]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.09.25-16.59.32:860][421]LogExit: Editor shut down
+[2022.09.25-16.59.32:865][421]LogExit: Transaction tracking system shut down
+[2022.09.25-16.59.32:882][421]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.09.25-16.59.33:032][421]LogExit: Object subsystem successfully closed.
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: ================================================
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Job execution time: average 2.34 s, max 3.14 s
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Job life time (pending + execution): average 2.36 s, max 3.16
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.16 s
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Average processing rate: 0.63 jobs/sec
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Effective parallelization: 1.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 2.89 sec, max 2.89 sec, min 2.89 sec)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 69.45% of total time (compiled    1 times, average 2.89 sec, max 2.89 sec, min 2.89 sec)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 30.55% of total time (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2022.09.25-16.59.33:040][421]LogShaderCompilers: Display: ================================================
+[2022.09.25-16.59.33:044][421]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module BlueprintGraph (914)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (912)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module Voice (910)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SequencerWidgets (908)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module TimeManagement (906)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module PinnedCommandList (904)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SkeletonEditor (902)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (900)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SubobjectEditor (896)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SceneOutliner (894)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AddContentDialog (892)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module WidgetCarousel (891)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module StatusBar (888)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (886)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module StatsViewer (884)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (882)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AutomationWorker (880)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SteamVREditor (878)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module OculusMR (876)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module OculusAudioEditor (874)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (872)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module OpenXRInput (870)
+[2022.09.25-16.59.33:090][421]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module GooglePADEditor (868)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (866)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (864)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (862)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (860)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module WebMMedia (858)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (856)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (854)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (852)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (850)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (848)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (846)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (844)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (842)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module SequenceRecorder (841)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (838)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (836)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (834)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (832)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (830)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (828)
+[2022.09.25-16.59.33:090][421]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (826)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module PlanarCut (824)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module CharacterAI (822)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module IKRigEditor (820)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (818)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module ControlRigEditor (816)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module AnimationEditor (815)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module TextureAlignMode (812)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module BspMode (810)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module GeometryMode (808)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (806)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module SmartSnapping (804)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module SessionServices (802)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module MeshPaint (800)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (798)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module PlacementMode (797)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module FoliageEdit (794)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module LandscapeEditor (792)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (790)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module ActorPickerMode (788)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module ViewportSnapping (786)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module ViewportInteraction (782)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module ClothPainter (780)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (779)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module LogVisualizer (776)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module IntroTutorials (774)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (772)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (770)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (769)
+[2022.09.25-16.59.33:091][421]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (767)
+[2022.09.25-16.59.33:458][421]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (764)
+[2022.09.25-16.59.33:458][421]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (762)
+[2022.09.25-16.59.33:458][421]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (760)
+[2022.09.25-16.59.33:458][421]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (758)
+[2022.09.25-16.59.33:458][421]LogModuleManager: Shutting down and abandoning module CSVtoSVG (756)
+[2022.09.25-16.59.33:458][421]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (754)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module EditorConfig (752)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (750)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module EditorFramework (748)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (746)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module TraceInsights (744)
+[2022.09.25-16.59.33:459][421]MemoryProfiler: Shutdown
+[2022.09.25-16.59.33:459][421]NetworkingProfiler: Shutdown
+[2022.09.25-16.59.33:459][421]LoadingProfiler: Shutdown
+[2022.09.25-16.59.33:459][421]TimingProfiler: Shutdown
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module TraceServices (743)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (740)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (739)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module InputBindingEditor (736)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module MergeActors (734)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (732)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module LocalizationService (731)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module HardwareTargeting (728)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (726)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module UndoHistory (724)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module XmlParser (722)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module Blutility (720)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (718)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (717)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (714)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (713)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module SettingsEditor (710)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module ProjectLauncher (708)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module SessionFrontend (706)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module ProfilerClient (704)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module DeviceManager (702)
+[2022.09.25-16.59.33:459][421]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (701)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module AutomationController (698)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module AutomationWindow (696)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module Layers (694)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (692)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module DetailCustomizations (690)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module PackagesDialog (688)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (686)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module Persona (684)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (683)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module AnimGraph (681)
+[2022.09.25-16.59.33:481][421]LogModuleManager: Shutting down and abandoning module Kismet (678)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module KismetWidgets (677)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module GraphEditor (674)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module StructViewer (672)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module ClassViewer (670)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module NaniteTools (668)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (666)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module SourceControlWindows (664)
+[2022.09.25-16.59.33:487][421]LogModuleManager: Shutting down and abandoning module OutputLog (662)
+[2022.09.25-16.59.33:488][421]LogModuleManager: Shutting down and abandoning module Documentation (660)
+[2022.09.25-16.59.33:488][421]LogModuleManager: Shutting down and abandoning module LiveCoding (658)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (656)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module MovieScene (654)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (652)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module LauncherPlatform (650)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module AnalyticsET (648)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module PortalServices (646)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module PortalRpc (644)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module MessagingRpc (642)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (640)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module AudioMixer (639)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module AudioMixerCore (638)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module AIModule (634)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module GameplayDebugger (633)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module AITestSuite (631)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module NavigationSystem (629)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (626)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (624)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module TypedElementFramework (622)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (620)
+[2022.09.25-16.59.33:496][421]LogModuleManager: Shutting down and abandoning module ProfilerService (
