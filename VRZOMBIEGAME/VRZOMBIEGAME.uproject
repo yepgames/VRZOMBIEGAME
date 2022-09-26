@@ -40,11 +40,11 @@
 		},
 		{
 			"Name": "OpenVRExpansionPlugin",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "VRExpansionPlugin",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Linux",
