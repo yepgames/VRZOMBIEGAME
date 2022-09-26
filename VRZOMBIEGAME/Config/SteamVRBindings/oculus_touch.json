@@ -107,6 +107,50 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/right/input/b",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/right thumbanim"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/right thumbanim"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/y",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/left thumbanim"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/left thumbanim"
+						}
+					}
+				},
+				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
