@@ -1,0 +1,696 @@
+; SPIR-V
+; Version: 1.0
+; Generator: Google spiregg; 0
+; Bound: 316
+; Schema: 0
+               OpCapability Shader
+               OpCapability ClipDistance
+               OpCapability SampledBuffer
+               OpCapability ImageBuffer
+               OpCapability StorageImageExtendedFormats
+               OpExtension "SPV_GOOGLE_hlsl_functionality1"
+               OpExtension "SPV_GOOGLE_user_type"
+          %1 = OpExtInstImport "GLSL.std.450"
+               OpMemoryModel Logical GLSL450
+               OpEntryPoint Vertex %Main "Main" %gl_ClipDistance %in_var_ATTRIBUTE0 %in_var_ATTRIBUTE1 %in_var_ATTRIBUTE2 %in_var_ATTRIBUTE3 %in_var_ATTRIBUTE4 %gl_InstanceIndex %gl_Position %out_var_TEXCOORD0 %out_var_TEXCOORD1 %out_var_TEXCOORD2 %out_var_TEXCOORD3 %out_var_TEXCOORD4 %out_var_TEXCOORD5 %out_var_EYE_INDEX
+
+               ; Debug Information
+               OpSource HLSL 620
+               OpName %ViewState "ViewState"  ; id %18
+               OpMemberName %ViewState 0 "TranslatedWorldToClip"
+               OpMemberName %ViewState 1 "RelativeWorldToClip"
+               OpMemberName %ViewState 2 "ClipToRelativeWorld"
+               OpMemberName %ViewState 3 "TranslatedWorldToView"
+               OpMemberName %ViewState 4 "ViewToTranslatedWorld"
+               OpMemberName %ViewState 5 "TranslatedWorldToCameraView"
+               OpMemberName %ViewState 6 "CameraViewToTranslatedWorld"
+               OpMemberName %ViewState 7 "ViewToClip"
+               OpMemberName %ViewState 8 "ViewToClipNoAA"
+               OpMemberName %ViewState 9 "ClipToView"
+               OpMemberName %ViewState 10 "ClipToTranslatedWorld"
+               OpMemberName %ViewState 11 "SVPositionToTranslatedWorld"
+               OpMemberName %ViewState 12 "ScreenToRelativeWorld"
+               OpMemberName %ViewState 13 "ScreenToTranslatedWorld"
+               OpMemberName %ViewState 14 "MobileMultiviewShadowTransform"
+               OpMemberName %ViewState 15 "ViewTilePosition"
+               OpMemberName %ViewState 16 "MatrixTilePosition"
+               OpMemberName %ViewState 17 "ViewForward"
+               OpMemberName %ViewState 18 "ViewUp"
+               OpMemberName %ViewState 19 "ViewRight"
+               OpMemberName %ViewState 20 "HMDViewNoRollUp"
+               OpMemberName %ViewState 21 "HMDViewNoRollRight"
+               OpMemberName %ViewState 22 "InvDeviceZToWorldZTransform"
+               OpMemberName %ViewState 23 "ScreenPositionScaleBias"
+               OpMemberName %ViewState 24 "RelativeWorldCameraOrigin"
+               OpMemberName %ViewState 25 "TranslatedWorldCameraOrigin"
+               OpMemberName %ViewState 26 "RelativeWorldViewOrigin"
+               OpMemberName %ViewState 27 "RelativePreViewTranslation"
+               OpMemberName %ViewState 28 "PrevViewToClip"
+               OpMemberName %ViewState 29 "PrevClipToView"
+               OpMemberName %ViewState 30 "PrevTranslatedWorldToClip"
+               OpMemberName %ViewState 31 "PrevTranslatedWorldToView"
+               OpMemberName %ViewState 32 "PrevViewToTranslatedWorld"
+               OpMemberName %ViewState 33 "PrevTranslatedWorldToCameraView"
+               OpMemberName %ViewState 34 "PrevCameraViewToTranslatedWorld"
+               OpMemberName %ViewState 35 "PrevTranslatedWorldCameraOrigin"
+               OpMemberName %ViewState 36 "PrevRelativeWorldCameraOrigin"
+               OpMemberName %ViewState 37 "PrevRelativeWorldViewOrigin"
+               OpMemberName %ViewState 38 "RelativePrevPreViewTranslation"
+               OpMemberName %ViewState 39 "PrevClipToRelativeWorld"
+               OpMemberName %ViewState 40 "PrevScreenToTranslatedWorld"
+               OpMemberName %ViewState 41 "ClipToPrevClip"
+               OpMemberName %ViewState 42 "ClipToPrevClipWithAA"
+               OpMemberName %ViewState 43 "TemporalAAJitter"
+               OpMemberName %ViewState 44 "GlobalClippingPlane"
+               OpMemberName %ViewState 45 "FieldOfViewWideAngles"
+               OpMemberName %ViewState 46 "PrevFieldOfViewWideAngles"
+               OpMemberName %ViewState 47 "ViewRectMin"
+               OpMemberName %ViewState 48 "ViewSizeAndInvSize"
+               OpMemberName %ViewState 49 "LightProbeSizeRatioAndInvSizeRatio"
+               OpMemberName %ViewState 50 "BufferSizeAndInvSize"
+               OpMemberName %ViewState 51 "BufferBilinearUVMinMax"
+               OpMemberName %ViewState 52 "ScreenToViewSpace"
+               OpMemberName %ViewState 53 "NumSceneColorMSAASamples"
+               OpMemberName %ViewState 54 "PreExposure"
+               OpMemberName %ViewState 55 "OneOverPreExposure"
+               OpMemberName %ViewState 56 "DiffuseOverrideParameter"
+               OpMemberName %ViewState 57 "SpecularOverrideParameter"
+               OpMemberName %ViewState 58 "NormalOverrideParameter"
+               OpMemberName %ViewState 59 "RoughnessOverrideParameter"
+               OpMemberName %ViewState 60 "PrevFrameGameTime"
+               OpMemberName %ViewState 61 "PrevFrameRealTime"
+               OpMemberName %ViewState 62 "OutOfBoundsMask"
+               OpMemberName %ViewState 63 "WorldCameraMovementSinceLastFrame"
+               OpMemberName %ViewState 64 "CullingSign"
+               OpMemberName %ViewState 65 "NearPlane"
+               OpMemberName %ViewState 66 "GameTime"
+               OpMemberName %ViewState 67 "RealTime"
+               OpMemberName %ViewState 68 "DeltaTime"
+               OpMemberName %ViewState 69 "MaterialTextureMipBias"
+               OpMemberName %ViewState 70 "MaterialTextureDerivativeMultiply"
+               OpMemberName %ViewState 71 "Random"
+               OpMemberName %ViewState 72 "FrameNumber"
+               OpMemberName %ViewState 73 "StateFrameIndexMod8"
+               OpMemberName %ViewState 74 "StateFrameIndex"
+               OpMemberName %ViewState 75 "DebugViewModeMask"
+               OpMemberName %ViewState 76 "CameraCut"
+               OpMemberName %ViewState 77 "UnlitViewmodeMask"
+               OpMemberName %ViewState 78 "DirectionalLightColor"
+               OpMemberName %ViewState 79 "DirectionalLightDirection"
+               OpMemberName %ViewState 80 "TranslucencyLightingVolumeMin"
+               OpMemberName %ViewState 81 "TranslucencyLightingVolumeInvSize"
+               OpMemberName %ViewState 82 "TemporalAAParams"
+               OpMemberName %ViewState 83 "CircleDOFParams"
+               OpMemberName %ViewState 84 "ForceDrawAllVelocities"
+               OpMemberName %ViewState 85 "DepthOfFieldSensorWidth"
+               OpMemberName %ViewState 86 "DepthOfFieldFocalDistance"
+               OpMemberName %ViewState 87 "DepthOfFieldScale"
+               OpMemberName %ViewState 88 "DepthOfFieldFocalLength"
+               OpMemberName %ViewState 89 "DepthOfFieldFocalRegion"
+               OpMemberName %ViewState 90 "DepthOfFieldNearTransitionRegion"
+               OpMemberName %ViewState 91 "DepthOfFieldFarTransitionRegion"
+               OpMemberName %ViewState 92 "MotionBlurNormalizedToPixel"
+               OpMemberName %ViewState 93 "GeneralPurposeTweak"
+               OpMemberName %ViewState 94 "GeneralPurposeTweak2"
+               OpMemberName %ViewState 95 "DemosaicVposOffset"
+               OpMemberName %ViewState 96 "DecalDepthBias"
+               OpMemberName %ViewState 97 "IndirectLightingColorScale"
+               OpMemberName %ViewState 98 "PrecomputedIndirectLightingColorScale"
+               OpMemberName %ViewState 99 "PrecomputedIndirectSpecularColorScale"
+               OpMemberName %ViewState 100 "AtmosphereLightDirection"
+               OpMemberName %ViewState 101 "AtmosphereLightIlluminanceOnGroundPostTransmittance"
+               OpMemberName %ViewState 102 "AtmosphereLightIlluminanceOuterSpace"
+               OpMemberName %ViewState 103 "AtmosphereLightDiscLuminance"
+               OpMemberName %ViewState 104 "AtmosphereLightDiscCosHalfApexAngle"
+               OpMemberName %ViewState 105 "SkyViewLutSizeAndInvSize"
+               OpMemberName %ViewState 106 "SkyCameraTranslatedWorldOrigin"
+               OpMemberName %ViewState 107 "SkyPlanetTranslatedWorldCenterAndViewHeight"
+               OpMemberName %ViewState 108 "SkyViewLutReferential"
+               OpMemberName %ViewState 109 "SkyAtmosphereSkyLuminanceFactor"
+               OpMemberName %ViewState 110 "SkyAtmospherePresentInScene"
+               OpMemberName %ViewState 111 "SkyAtmosphereHeightFogContribution"
+               OpMemberName %ViewState 112 "SkyAtmosphereBottomRadiusKm"
+               OpMemberName %ViewState 113 "SkyAtmosphereTopRadiusKm"
+               OpMemberName %ViewState 114 "SkyAtmosphereCameraAerialPerspectiveVolumeSizeAndInvSize"
+               OpMemberName %ViewState 115 "SkyAtmosphereAerialPerspectiveStartDepthKm"
+               OpMemberName %ViewState 116 "SkyAtmosphereCameraAerialPerspectiveVolumeDepthResolution"
+               OpMemberName %ViewState 117 "SkyAtmosphereCameraAerialPerspectiveVolumeDepthResolutionInv"
+               OpMemberName %ViewState 118 "SkyAtmosphereCameraAerialPerspectiveVolumeDepthSliceLengthKm"
+               OpMemberName %ViewState 119 "SkyAtmosphereCameraAerialPerspectiveVolumeDepthSliceLengthKmInv"
+               OpMemberName %ViewState 120 "SkyAtmosphereApplyCameraAerialPerspectiveVolume"
+               OpMemberName %ViewState 121 "NormalCurvatureToRoughnessScaleBias"
+               OpMemberName %ViewState 122 "RenderingReflectionCaptureMask"
+               OpMemberName %ViewState 123 "RealTimeReflectionCapture"
+               OpMemberName %ViewState 124 "RealTimeReflectionCapturePreExposure"
+               OpMemberName %ViewState 125 "AmbientCubemapTint"
+               OpMemberName %ViewState 126 "AmbientCubemapIntensity"
+               OpMemberName %ViewState 127 "SkyLightApplyPrecomputedBentNormalShadowingFlag"
+               OpMemberName %ViewState 128 "SkyLightAffectReflectionFlag"
+               OpMemberName %ViewState 129 "SkyLightAffectGlobalIlluminationFlag"
+               OpMemberName %ViewState 130 "SkyLightColor"
+               OpMemberName %ViewState 131 "MobileSkyIrradianceEnvironmentMap"
+               OpMemberName %ViewState 132 "MobilePreviewMode"
+               OpMemberName %ViewState 133 "HMDEyePaddingOffset"
+               OpMemberName %ViewState 134 "ReflectionCubemapMaxMip"
+               OpMemberName %ViewState 135 "ShowDecalsMask"
+               OpMemberName %ViewState 136 "DistanceFieldAOSpecularOcclusionMode"
+               OpMemberName %ViewState 137 "IndirectCapsuleSelfShadowingIntensity"
+               OpMemberName %ViewState 138 "ReflectionEnvironmentRoughnessMixingScaleBiasAndLargestWeight"
+               OpMemberName %ViewState 139 "StereoPassIndex"
+               OpMemberName %ViewState 140 "GlobalVolumeCenterAndExtent"
+               OpMemberName %ViewState 141 "GlobalVolumeWorldToUVAddAndMul"
+               OpMemberName %ViewState 142 "GlobalDistanceFieldMipWorldToUVScale"
+               OpMemberName %ViewState 143 "GlobalDistanceFieldMipWorldToUVBias"
+               OpMemberName %ViewState 144 "GlobalDistanceFieldMipFactor"
+               OpMemberName %ViewState 145 "GlobalDistanceFieldMipTransition"
+               OpMemberName %ViewState 146 "GlobalDistanceFieldClipmapSizeInPages"
+               OpMemberName %ViewState 147 "GlobalDistanceFieldInvPageAtlasSize"
+               OpMemberName %ViewState 148 "GlobalDistanceFieldInvCoverageAtlasSize"
+               OpMemberName %ViewState 149 "GlobalVolumeDimension"
+               OpMemberName %ViewState 150 "GlobalVolumeTexelSize"
+               OpMemberName %ViewState 151 "MaxGlobalDFAOConeDistance"
+               OpMemberName %ViewState 152 "NumGlobalSDFClipmaps"
+               OpMemberName %ViewState 153 "FullyCoveredExpandSurfaceScale"
+               OpMemberName %ViewState 154 "UncoveredExpandSurfaceScale"
+               OpMemberName %ViewState 155 "UncoveredMinStepScale"
+               OpMemberName %ViewState 156 "CursorPosition"
+               OpMemberName %ViewState 157 "bCheckerboardSubsurfaceProfileRendering"
+               OpMemberName %ViewState 158 "VolumetricFogInvGridSize"
+               OpMemberName %ViewState 159 "VolumetricFogGridZParams"
+               OpMemberName %ViewState 160 "VolumetricFogSVPosToVolumeUV"
+               OpMemberName %ViewState 161 "VolumetricFogMaxDistance"
+               OpMemberName %ViewState 162 "VolumetricLightmapWorldToUVScale"
+               OpMemberName %ViewState 163 "VolumetricLightmapWorldToUVAdd"
+               OpMemberName %ViewState 164 "VolumetricLightmapIndirectionTextureSize"
+               OpMemberName %ViewState 165 "VolumetricLightmapBrickSize"
+               OpMemberName %ViewState 166 "VolumetricLightmapBrickTexelSize"
+               OpMemberName %ViewState 167 "StereoIPD"
+               OpMemberName %ViewState 168 "IndirectLightingCacheShowFlag"
+               OpMemberName %ViewState 169 "EyeToPixelSpreadAngle"
+               OpMemberName %ViewState 170 "XRPassthroughCameraUVs"
+               OpMemberName %ViewState 171 "GlobalVirtualTextureMipBias"
+               OpMemberName %ViewState 172 "VirtualTextureFeedbackShift"
+               OpMemberName %ViewState 173 "VirtualTextureFeedbackMask"
+               OpMemberName %ViewState 174 "VirtualTextureFeedbackStride"
+               OpMemberName %ViewState 175 "VirtualTextureFeedbackJitterOffset"
+               OpMemberName %ViewState 176 "VirtualTextureFeedbackSampleOffset"
+               OpMemberName %ViewState 177 "RuntimeVirtualTextureMipLevel"
+               OpMemberName %ViewState 178 "RuntimeVirtualTexturePackHeight"
+               OpMemberName %ViewState 179 "RuntimeVirtualTextureDebugParams"
+               OpMemberName %ViewState 180 "OverrideLandscapeLOD"
+               OpMemberName %ViewState 181 "FarShadowStaticMeshLODBias"
+               OpMemberName %ViewState 182 "MinRoughness"
+               OpMemberName %ViewState 183 "HairRenderInfo"
+               OpMemberName %ViewState 184 "EnableSkyLight"
+               OpMemberName %ViewState 185 "HairRenderInfoBits"
+               OpMemberName %ViewState 186 "HairComponents"
+               OpMemberName %ViewState 187 "bSubsurfacePostprocessEnabled"
+               OpMemberName %ViewState 188 "SSProfilesTextureSizeAndInvSize"
+               OpMemberName %ViewState 189 "SSProfilesPreIntegratedTextureSizeAndInvSize"
+               OpMemberName %ViewState 190 "PhysicsFieldClipmapCenter"
+               OpMemberName %ViewState 191 "PhysicsFieldClipmapDistance"
+               OpMemberName %ViewState 192 "PhysicsFieldClipmapResolution"
+               OpMemberName %ViewState 193 "PhysicsFieldClipmapExponent"
+               OpMemberName %ViewState 194 "PhysicsFieldClipmapCount"
+               OpMemberName %ViewState 195 "PhysicsFieldTargetCount"
+               OpMemberName %ViewState 196 "PhysicsFieldTargets"
+               OpMemberName %ViewState 197 "InstanceSceneDataSOAStride"
+               OpMemberName %ViewState 198 "GPUSceneViewId"
+               OpMemberName %ViewState 199 "WorldToClip"
+               OpMemberName %ViewState 200 "ClipToWorld"
+               OpMemberName %ViewState 201 "ScreenToWorld"
+               OpMemberName %ViewState 202 "PrevClipToWorld"
+               OpMemberName %ViewState 203 "WorldCameraOrigin"
+               OpMemberName %ViewState 204 "WorldViewOrigin"
+               OpMemberName %ViewState 205 "PrevWorldCameraOrigin"
+               OpMemberName %ViewState 206 "PrevWorldViewOrigin"
+               OpMemberName %ViewState 207 "PreViewTranslation"
+               OpMemberName %ViewState 208 "PrevPreViewTranslation"
+               OpName %FLWCInverseMatrix "FLWCInverseMatrix"  ; id %19
+               OpMemberName %FLWCInverseMatrix 0 "M"
+               OpMemberName %FLWCInverseMatrix 1 "Tile"
+               OpMemberName %FLWCInverseMatrix 2 "Dummy"
+               OpName %FLWCMatrix "FLWCMatrix"  ; id %20
+               OpMemberName %FLWCMatrix 0 "M"
+               OpMemberName %FLWCMatrix 1 "Tile"
+               OpName %FLWCVector3 "FLWCVector3"  ; id %21
+               OpMemberName %FLWCVector3 0 "Tile"
+               OpMemberName %FLWCVector3 1 "Offset"
+               OpName %type_View "type.View"  ; id %22
+               OpMemberName %type_View 0 "View_TranslatedWorldToClip"
+               OpMemberName %type_View 1 "View_ViewTilePosition"
+               OpMemberName %type_View 2 "View_TranslatedWorldCameraOrigin"
+               OpMemberName %type_View 3 "View_RelativePreViewTranslation"
+               OpMemberName %type_View 4 "View_HMDEyePaddingOffset"
+               OpName %View "View"  ; id %23
+               OpName %type_InstancedView "type.InstancedView"  ; id %24
+               OpMemberName %type_InstancedView 0 "InstancedView_TranslatedWorldToClip"
+               OpMemberName %type_InstancedView 1 "InstancedView_ViewTilePosition"
+               OpMemberName %type_InstancedView 2 "InstancedView_TranslatedWorldCameraOrigin"
+               OpMemberName %type_InstancedView 3 "InstancedView_RelativePreViewTranslation"
+               OpMemberName %type_InstancedView 4 "InstancedView_HMDEyePaddingOffset"
+               OpMemberName %type_InstancedView 5 "InstancedView_StereoPassIndex"
+               OpName %InstancedView "InstancedView"  ; id %25
+               OpName %type_Primitive "type.Primitive"  ; id %26
+               OpMemberName %type_Primitive 0 "Primitive_TilePosition"
+               OpMemberName %type_Primitive 1 "Primitive_LocalToRelativeWorld"
+               OpName %Primitive "Primitive"  ; id %27
+               OpName %type_BeamTrailVF "type.BeamTrailVF"  ; id %28
+               OpMemberName %type_BeamTrailVF 0 "BeamTrailVF_CameraRight"
+               OpMemberName %type_BeamTrailVF 1 "BeamTrailVF_CameraUp"
+               OpMemberName %type_BeamTrailVF 2 "BeamTrailVF_ScreenAlignment"
+               OpName %BeamTrailVF "BeamTrailVF"  ; id %29
+               OpName %EyeOffsetScale "EyeOffsetScale"  ; id %30
+               OpName %EyeClipEdge "EyeClipEdge"  ; id %31
+               OpName %in_var_ATTRIBUTE0 "in.var.ATTRIBUTE0"  ; id %4
+               OpName %in_var_ATTRIBUTE1 "in.var.ATTRIBUTE1"  ; id %5
+               OpName %in_var_ATTRIBUTE2 "in.var.ATTRIBUTE2"  ; id %6
+               OpName %in_var_ATTRIBUTE3 "in.var.ATTRIBUTE3"  ; id %7
+               OpName %in_var_ATTRIBUTE4 "in.var.ATTRIBUTE4"  ; id %8
+               OpName %out_var_TEXCOORD0 "out.var.TEXCOORD0"  ; id %11
+               OpName %out_var_TEXCOORD1 "out.var.TEXCOORD1"  ; id %12
+               OpName %out_var_TEXCOORD2 "out.var.TEXCOORD2"  ; id %13
+               OpName %out_var_TEXCOORD3 "out.var.TEXCOORD3"  ; id %14
+               OpName %out_var_TEXCOORD4 "out.var.TEXCOORD4"  ; id %15
+               OpName %out_var_TEXCOORD5 "out.var.TEXCOORD5"  ; id %16
+               OpName %out_var_EYE_INDEX "out.var.EYE_INDEX"  ; id %17
+               OpName %Main "Main"  ; id %2
+
+               ; Annotations
+               OpDecorate %gl_ClipDistance BuiltIn ClipDistance
+               OpDecorateString %gl_ClipDistance UserSemantic "SV_ClipDistance1"
+               OpDecorateString %in_var_ATTRIBUTE0 UserSemantic "ATTRIBUTE0"
+               OpDecorateString %in_var_ATTRIBUTE1 UserSemantic "ATTRIBUTE1"
+               OpDecorateString %in_var_ATTRIBUTE2 UserSemantic "ATTRIBUTE2"
+               OpDecorateString %in_var_ATTRIBUTE3 UserSemantic "ATTRIBUTE3"
+               OpDecorateString %in_var_ATTRIBUTE4 UserSemantic "ATTRIBUTE4"
+               OpDecorate %gl_InstanceIndex BuiltIn InstanceIndex
+               OpDecorateString %gl_InstanceIndex UserSemantic "SV_InstanceID"
+               OpDecorate %gl_Position BuiltIn Position
+               OpDecorateString %gl_Position UserSemantic "SV_POSITION"
+               OpDecorate %gl_Position Invariant
+               OpDecorateString %out_var_TEXCOORD0 UserSemantic "TEXCOORD0"
+               OpDecorateString %out_var_TEXCOORD1 UserSemantic "TEXCOORD1"
+               OpDecorateString %out_var_TEXCOORD2 UserSemantic "TEXCOORD2"
+               OpDecorateString %out_var_TEXCOORD3 UserSemantic "TEXCOORD3"
+               OpDecorateString %out_var_TEXCOORD4 UserSemantic "TEXCOORD4"
+               OpDecorateString %out_var_TEXCOORD5 UserSemantic "TEXCOORD5"
+               OpDecorateString %out_var_EYE_INDEX UserSemantic "EYE_INDEX"
+               OpDecorate %out_var_EYE_INDEX Flat
+               OpDecorate %in_var_ATTRIBUTE0 Location 0
+               OpDecorate %in_var_ATTRIBUTE1 Location 1
+               OpDecorate %in_var_ATTRIBUTE2 Location 2
+               OpDecorate %in_var_ATTRIBUTE3 Location 3
+               OpDecorate %in_var_ATTRIBUTE4 Location 4
+               OpDecorate %out_var_TEXCOORD0 Location 0
+               OpDecorate %out_var_TEXCOORD1 Location 1
+               OpDecorate %out_var_TEXCOORD2 Location 2
+               OpDecorate %out_var_TEXCOORD3 Location 3
+               OpDecorate %out_var_TEXCOORD4 Location 4
+               OpDecorate %out_var_TEXCOORD5 Location 5
+               OpDecorate %out_var_EYE_INDEX Location 6
+               OpDecorate %View DescriptorSet 0
+               OpDecorate %View Binding 0
+               OpDecorate %InstancedView DescriptorSet 0
+               OpDecorate %InstancedView Binding 88
+               OpDecorate %Primitive DescriptorSet 0
+               OpDecorate %Primitive Binding 224
+               OpDecorate %BeamTrailVF DescriptorSet 0
+               OpDecorate %BeamTrailVF Binding 317
+               OpMemberDecorate %type_View 0 Offset 0
+               OpMemberDecorate %type_View 0 MatrixStride 16
+               OpMemberDecorate %type_View 0 ColMajor
+               OpMemberDecorate %type_View 1 Offset 960
+               OpMemberDecorate %type_View 2 Offset 1120
+               OpMemberDecorate %type_View 3 Offset 1152
+               OpMemberDecorate %type_View 4 Offset 3044
+               OpDecorate %type_View Block
+               OpDecorateString %View UserTypeGOOGLE "cbuffer"
+               OpMemberDecorate %type_InstancedView 0 Offset 0
+               OpMemberDecorate %type_InstancedView 0 MatrixStride 16
+               OpMemberDecorate %type_InstancedView 0 ColMajor
+               OpMemberDecorate %type_InstancedView 1 Offset 960
+               OpMemberDecorate %type_InstancedView 2 Offset 1120
+               OpMemberDecorate %type_InstancedView 3 Offset 1152
+               OpMemberDecorate %type_InstancedView 4 Offset 3044
+               OpMemberDecorate %type_InstancedView 5 Offset 3084
+               OpDecorate %type_InstancedView Block
+               OpDecorateString %InstancedView UserTypeGOOGLE "cbuffer"
+               OpMemberDecorate %type_Primitive 0 Offset 16
+               OpMemberDecorate %type_Primitive 1 Offset 32
+               OpMemberDecorate %type_Primitive 1 MatrixStride 16
+               OpMemberDecorate %type_Primitive 1 ColMajor
+               OpDecorate %type_Primitive Block
+               OpDecorateString %Primitive UserTypeGOOGLE "cbuffer"
+               OpMemberDecorate %type_BeamTrailVF 0 Offset 0
+               OpMemberDecorate %type_BeamTrailVF 1 Offset 16
+               OpMemberDecorate %type_BeamTrailVF 2 Offset 32
+               OpDecorate %type_BeamTrailVF Block
+               OpDecorateString %BeamTrailVF UserTypeGOOGLE "cbuffer"
+
+               ; Types, variables and constants
+      %float = OpTypeFloat 32
+    %v3float = OpTypeVector %float 3
+    %v4float = OpTypeVector %float 4
+%mat4v4float = OpTypeMatrix %v4float 4
+    %v2float = OpTypeVector %float 2
+        %int = OpTypeInt 32 1
+       %uint = OpTypeInt 32 0
+     %uint_2 = OpConstant %uint 2
+%_arr_v4float_uint_2 = OpTypeArray %v4float %uint_2
+     %uint_7 = OpConstant %uint 7
+%_arr_v4float_uint_7 = OpTypeArray %v4float %uint_7
+     %uint_6 = OpConstant %uint 6
+%_arr_v4float_uint_6 = OpTypeArray %v4float %uint_6
+      %v2int = OpTypeVector %int 2
+    %uint_32 = OpConstant %uint 32
+      %v4int = OpTypeVector %int 4
+%_arr_v4int_uint_32 = OpTypeArray %v4int %uint_32
+%FLWCInverseMatrix = OpTypeStruct %mat4v4float %v3float %int
+ %FLWCMatrix = OpTypeStruct %mat4v4float %v3float
+%FLWCVector3 = OpTypeStruct %v3float %v3float
+  %ViewState = OpTypeStruct %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %v3float %v3float %v3float %v3float %v3float %v3float %v3float %v4float %v4float %v3float %v3float %v3float %v3float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %v3float %v3float %v3float %v3float %mat4v4float %mat4v4float %mat4v4float %mat4v4float %v4float %v4float %v2float %v2float %v4float %v4float %v4float %v4float %v4float %v4float %int %float %float %v4float %v4float %v4float %v2float %float %float %float %v3float %float %float %float %float %float %float %float %uint %uint %uint %uint %uint %float %float %v4float %v3float %_arr_v4float_uint_2 %_arr_v4float_uint_2 %v4float %v4float %uint %float %float %float %float %float %float %float %float %float %float %float %float %v3float %v3float %v3float %_arr_v4float_uint_2 %_arr_v4float_uint_2 %_arr_v4float_uint_2 %_arr_v4float_uint_2 %_arr_v4float_uint_2 %v4float %v3float %v4float %mat4v4float %v4float %float %float %float %float %v4float %float %float %float %float %float %float %v3float %float %float %float %v4float %float %float %float %float %v4float %_arr_v4float_uint_7 %float %float %float %float %uint %float %v3float %int %_arr_v4float_uint_6 %_arr_v4float_uint_6 %_arr_v4float_uint_6 %_arr_v4float_uint_6 %float %float %int %v3float %v3float %float %float %float %uint %float %float %float %v2int %float %v3float %v3float %v2float %float %v3float %v3float %v3float %float %v3float %float %float %float %_arr_v4float_uint_2 %float %uint %uint %uint %uint %uint %v4float %v2float %v4float %float %int %float %v4float %uint %uint %uint %float %v4float %v4float %v3float %float %int %int %int %int %_arr_v4int_uint_32 %uint %uint %FLWCInverseMatrix %FLWCMatrix %FLWCMatrix %FLWCMatrix %FLWCVector3 %FLWCVector3 %FLWCVector3 %FLWCVector3 %FLWCVector3 %FLWCVector3
+   %float_n1 = OpConstant %float -1
+    %float_1 = OpConstant %float 1
+    %float_0 = OpConstant %float 0
+     %uint_0 = OpConstant %uint 0
+      %int_0 = OpConstant %int 0
+  %float_0_5 = OpConstant %float 0.5
+      %int_1 = OpConstant %int 1
+      %int_4 = OpConstant %int 4
+     %uint_1 = OpConstant %uint 1
+      %int_2 = OpConstant %int 2
+%mat3v3float = OpTypeMatrix %v3float 3
+     %uint_4 = OpConstant %uint 4
+%_arr_v2float_uint_4 = OpTypeArray %v2float %uint_4
+       %bool = OpTypeBool
+  %float_1_5 = OpConstant %float 1.5
+%float_0_00999999978 = OpConstant %float 0.00999999978
+%float_2097152 = OpConstant %float 2097152
+  %type_View = OpTypeStruct %mat4v4float %v3float %v3float %v3float %float
+%_ptr_Uniform_type_View = OpTypePointer Uniform %type_View
+%type_InstancedView = OpTypeStruct %mat4v4float %v3float %v3float %v3float %float %int
+%_ptr_Uniform_type_InstancedView = OpTypePointer Uniform %type_InstancedView
+%type_Primitive = OpTypeStruct %v3float %mat4v4float
+%_ptr_Uniform_type_Primitive = OpTypePointer Uniform %type_Primitive
+%type_BeamTrailVF = OpTypeStruct %v4float %v4float %v4float
+%_ptr_Uniform_type_BeamTrailVF = OpTypePointer Uniform %type_BeamTrailVF
+%_arr_float_uint_2 = OpTypeArray %float %uint_2
+%_arr_float_uint_1 = OpTypeArray %float %uint_1
+%_ptr_Output__arr_float_uint_1 = OpTypePointer Output %_arr_float_uint_1
+%_ptr_Input_v4float = OpTypePointer Input %v4float
+%_ptr_Input_v3float = OpTypePointer Input %v3float
+%_ptr_Input_uint = OpTypePointer Input %uint
+%_ptr_Output_v4float = OpTypePointer Output %v4float
+%_ptr_Output_v3float = OpTypePointer Output %v3float
+%_ptr_Output_uint = OpTypePointer Output %uint
+       %void = OpTypeVoid
+         %80 = OpTypeFunction %void
+%_ptr_Function_float = OpTypePointer Function %float
+%_ptr_Output_float = OpTypePointer Output %float
+%_ptr_Function_v4float = OpTypePointer Function %v4float
+%_ptr_Function_v2float = OpTypePointer Function %v2float
+%_ptr_Uniform_int = OpTypePointer Uniform %int
+%_ptr_Uniform_mat4v4float = OpTypePointer Uniform %mat4v4float
+%_ptr_Uniform_v3float = OpTypePointer Uniform %v3float
+%_ptr_Uniform_v4float = OpTypePointer Uniform %v4float
+%_ptr_Uniform_float = OpTypePointer Uniform %float
+%_ptr_Function__arr_v4float_uint_2 = OpTypePointer Function %_arr_v4float_uint_2
+     %v4bool = OpTypeVector %bool 4
+       %View = OpVariable %_ptr_Uniform_type_View Uniform
+%InstancedView = OpVariable %_ptr_Uniform_type_InstancedView Uniform
+  %Primitive = OpVariable %_ptr_Uniform_type_Primitive Uniform
+%BeamTrailVF = OpVariable %_ptr_Uniform_type_BeamTrailVF Uniform
+%gl_ClipDistance = OpVariable %_ptr_Output__arr_float_uint_1 Output
+%in_var_ATTRIBUTE0 = OpVariable %_ptr_Input_v4float Input
+%in_var_ATTRIBUTE1 = OpVariable %_ptr_Input_v3float Input
+%in_var_ATTRIBUTE2 = OpVariable %_ptr_Input_v4float Input
+%in_var_ATTRIBUTE3 = OpVariable %_ptr_Input_v4float Input
+%in_var_ATTRIBUTE4 = OpVariable %_ptr_Input_v4float Input
+%gl_InstanceIndex = OpVariable %_ptr_Input_uint Input
+%gl_Position = OpVariable %_ptr_Output_v4float Output
+%out_var_TEXCOORD0 = OpVariable %_ptr_Output_v4float Output
+%out_var_TEXCOORD1 = OpVariable %_ptr_Output_v4float Output
+%out_var_TEXCOORD2 = OpVariable %_ptr_Output_v4float Output
+%out_var_TEXCOORD3 = OpVariable %_ptr_Output_v3float Output
+%out_var_TEXCOORD4 = OpVariable %_ptr_Output_v3float Output
+%out_var_TEXCOORD5 = OpVariable %_ptr_Output_v3float Output
+%out_var_EYE_INDEX = OpVariable %_ptr_Output_uint Output
+%_ptr_Function__arr_float_uint_2 = OpTypePointer Function %_arr_float_uint_2
+         %93 = OpConstantNull %v3float
+%_ptr_Function__arr_v2float_uint_4 = OpTypePointer Function %_arr_v2float_uint_4
+         %95 = OpUndef %ViewState
+         %96 = OpConstantComposite %_arr_float_uint_2 %float_n1 %float_1
+         %97 = OpConstantComposite %v4float %float_n1 %float_0 %float_0 %float_1
+         %98 = OpConstantComposite %v4float %float_1 %float_0 %float_0 %float_1
+         %99 = OpConstantComposite %_arr_v4float_uint_2 %97 %98
+        %100 = OpConstantNull %_arr_v2float_uint_4
+     %uint_5 = OpConstant %uint 5
+     %uint_3 = OpConstant %uint 3
+
+               ; Function Main
+       %Main = OpFunction %void None %80
+        %103 = OpLabel
+        %104 = OpVariable %_ptr_Function__arr_v2float_uint_4 Function
+%EyeClipEdge = OpVariable %_ptr_Function__arr_v4float_uint_2 Function
+%EyeOffsetScale = OpVariable %_ptr_Function__arr_float_uint_2 Function
+               OpStore %EyeOffsetScale %96
+               OpStore %EyeClipEdge %99
+        %105 = OpLoad %v4float %in_var_ATTRIBUTE0
+        %106 = OpLoad %v3float %in_var_ATTRIBUTE1
+        %107 = OpLoad %v4float %in_var_ATTRIBUTE2
+        %108 = OpLoad %v4float %in_var_ATTRIBUTE3
+        %109 = OpLoad %v4float %in_var_ATTRIBUTE4
+        %110 = OpLoad %uint %gl_InstanceIndex
+        %111 = OpAccessChain %_ptr_Uniform_int %InstancedView %uint_5
+        %112 = OpLoad %int %111
+        %113 = OpSGreaterThan %bool %112 %int_0
+        %114 = OpBitwiseAnd %uint %110 %uint_1
+        %115 = OpSelect %uint %113 %114 %uint_0
+               OpSelectionMerge %116 None
+               OpSwitch %uint_0 %117
+        %117 = OpLabel
+        %118 = OpIEqual %bool %115 %uint_0
+               OpSelectionMerge %119 None
+               OpBranchConditional %118 %120 %121
+        %121 = OpLabel
+        %122 = OpAccessChain %_ptr_Uniform_mat4v4float %InstancedView %int_0
+        %123 = OpLoad %mat4v4float %122
+        %124 = OpCompositeInsert %ViewState %123 %95 0
+        %125 = OpAccessChain %_ptr_Uniform_v3float %InstancedView %uint_1
+        %126 = OpLoad %v3float %125
+        %127 = OpAccessChain %_ptr_Uniform_v3float %InstancedView %uint_2
+        %128 = OpLoad %v3float %127
+        %129 = OpCompositeInsert %ViewState %128 %124 25
+        %130 = OpAccessChain %_ptr_Uniform_v3float %InstancedView %uint_3
+        %131 = OpLoad %v3float %130
+        %132 = OpAccessChain %_ptr_Uniform_float %InstancedView %uint_4
+        %133 = OpLoad %float %132
+        %134 = OpCompositeInsert %ViewState %133 %129 133
+        %135 = OpFNegate %v3float %126
+        %136 = OpCompositeConstruct %FLWCVector3 %135 %131
+        %137 = OpCompositeInsert %ViewState %136 %134 207
+               OpBranch %116
+        %120 = OpLabel
+        %138 = OpAccessChain %_ptr_Uniform_mat4v4float %View %int_0
+        %139 = OpLoad %mat4v4float %138
+        %140 = OpCompositeInsert %ViewState %139 %95 0
+        %141 = OpAccessChain %_ptr_Uniform_v3float %View %uint_1
+        %142 = OpLoad %v3float %141
+        %143 = OpAccessChain %_ptr_Uniform_v3float %View %uint_2
+        %144 = OpLoad %v3float %143
+        %145 = OpCompositeInsert %ViewState %144 %140 25
+        %146 = OpAccessChain %_ptr_Uniform_v3float %View %uint_3
+        %147 = OpLoad %v3float %146
+        %148 = OpAccessChain %_ptr_Uniform_float %View %uint_4
+        %149 = OpLoad %float %148
+        %150 = OpCompositeInsert %ViewState %149 %145 133
+        %151 = OpFNegate %v3float %142
+        %152 = OpCompositeConstruct %FLWCVector3 %151 %147
+        %153 = OpCompositeInsert %ViewState %152 %150 207
+               OpBranch %116
+        %119 = OpLabel
+               OpUnreachable
+        %116 = OpLabel
+        %154 = OpPhi %ViewState %137 %121 %153 %120
+        %155 = OpAccessChain %_ptr_Uniform_v3float %Primitive %uint_0
+        %156 = OpLoad %v3float %155
+        %157 = OpAccessChain %_ptr_Uniform_mat4v4float %Primitive %uint_1
+        %158 = OpLoad %mat4v4float %157
+        %159 = OpCompositeExtract %v4float %158 0
+        %160 = OpCompositeExtract %float %159 0
+        %161 = OpCompositeExtract %float %159 1
+        %162 = OpCompositeExtract %float %159 2
+        %163 = OpCompositeConstruct %v4float %160 %161 %162 %float_0
+        %164 = OpCompositeExtract %v4float %158 1
+        %165 = OpCompositeExtract %float %164 0
+        %166 = OpCompositeExtract %float %164 1
+        %167 = OpCompositeExtract %float %164 2
+        %168 = OpCompositeConstruct %v4float %165 %166 %167 %float_0
+        %169 = OpCompositeExtract %v4float %158 2
+        %170 = OpCompositeExtract %float %169 0
+        %171 = OpCompositeExtract %float %169 1
+        %172 = OpCompositeExtract %float %169 2
+        %173 = OpCompositeConstruct %v4float %170 %171 %172 %float_0
+        %174 = OpCompositeExtract %v4float %158 3
+        %175 = OpCompositeExtract %float %174 0
+        %176 = OpCompositeExtract %float %174 1
+        %177 = OpCompositeExtract %float %174 2
+        %178 = OpCompositeConstruct %v4float %175 %176 %177 %float_1
+        %179 = OpVectorShuffle %v3float %105 %93 0 0 0
+        %180 = OpVectorShuffle %v3float %163 %163 0 1 2
+        %181 = OpFMul %v3float %179 %180
+        %182 = OpVectorShuffle %v3float %105 %93 1 1 1
+        %183 = OpVectorShuffle %v3float %168 %168 0 1 2
+        %184 = OpFMul %v3float %182 %183
+        %185 = OpFAdd %v3float %181 %184
+        %186 = OpVectorShuffle %v3float %105 %93 2 2 2
+        %187 = OpVectorShuffle %v3float %173 %173 0 1 2
+        %188 = OpFMul %v3float %186 %187
+        %189 = OpFAdd %v3float %185 %188
+        %190 = OpVectorShuffle %v3float %178 %178 0 1 2
+        %191 = OpFAdd %v3float %189 %190
+        %192 = OpCompositeExtract %FLWCVector3 %154 207
+        %193 = OpCompositeExtract %v3float %192 0
+        %194 = OpCompositeExtract %v3float %192 1
+        %195 = OpFAdd %v3float %156 %193
+        %196 = OpFAdd %v3float %191 %194
+        %197 = OpVectorTimesScalar %v3float %195 %float_2097152
+        %198 = OpFAdd %v3float %197 %196
+        %199 = OpCompositeExtract %float %198 0
+        %200 = OpCompositeExtract %float %198 1
+        %201 = OpCompositeExtract %float %198 2
+        %202 = OpCompositeConstruct %v4float %199 %200 %201 %float_1
+        %203 = OpVectorShuffle %v3float %106 %106 0 0 0
+        %204 = OpFMul %v3float %203 %180
+        %205 = OpVectorShuffle %v3float %106 %106 1 1 1
+        %206 = OpFMul %v3float %205 %183
+        %207 = OpFAdd %v3float %204 %206
+        %208 = OpVectorShuffle %v3float %106 %106 2 2 2
+        %209 = OpFMul %v3float %208 %187
+        %210 = OpFAdd %v3float %207 %209
+        %211 = OpFAdd %v3float %210 %190
+        %212 = OpFAdd %v3float %211 %194
+        %213 = OpFAdd %v3float %197 %212
+        %214 = OpCompositeExtract %float %213 0
+        %215 = OpCompositeExtract %float %213 1
+        %216 = OpCompositeExtract %float %213 2
+        %217 = OpCompositeConstruct %v4float %214 %215 %216 %float_1
+        %218 = OpCompositeExtract %v3float %154 25
+        %219 = OpVectorShuffle %v3float %202 %202 0 1 2
+        %220 = OpFSub %v3float %218 %219
+        %221 = OpDot %float %220 %220
+        %222 = OpExtInst %float %1 FMax %221 %float_0_00999999978
+        %223 = OpExtInst %float %1 Sqrt %222
+        %224 = OpCompositeConstruct %v3float %223 %223 %223
+        %225 = OpFDiv %v3float %220 %224
+        %226 = OpVectorShuffle %v3float %217 %217 0 1 2
+        %227 = OpFSub %v3float %219 %226
+        %228 = OpDot %float %227 %227
+        %229 = OpExtInst %float %1 FMax %228 %float_0_00999999978
+        %230 = OpExtInst %float %1 Sqrt %229
+        %231 = OpCompositeConstruct %v3float %230 %230 %230
+        %232 = OpFDiv %v3float %227 %231
+        %233 = OpAccessChain %_ptr_Uniform_v4float %BeamTrailVF %int_0
+        %234 = OpLoad %v4float %233
+        %235 = OpAccessChain %_ptr_Uniform_v4float %BeamTrailVF %int_1
+        %236 = OpLoad %v4float %235
+        %237 = OpCompositeExtract %float %107 2
+        %238 = OpExtInst %float %1 Cos %237
+        %239 = OpFMul %float %float_n1 %238
+        %240 = OpVectorTimesScalar %v4float %236 %239
+        %241 = OpExtInst %float %1 Sin %237
+        %242 = OpVectorTimesScalar %v4float %234 %241
+        %243 = OpFAdd %v4float %240 %242
+        %244 = OpVectorTimesScalar %v4float %236 %241
+        %245 = OpVectorTimesScalar %v4float %234 %238
+        %246 = OpFAdd %v4float %244 %245
+        %247 = OpExtInst %v3float %1 Cross %225 %232
+        %248 = OpDot %float %247 %247
+        %249 = OpExtInst %float %1 FMax %248 %float_0_00999999978
+        %250 = OpExtInst %float %1 Sqrt %249
+        %251 = OpCompositeConstruct %v3float %250 %250 %250
+        %252 = OpFDiv %v3float %247 %251
+        %253 = OpCompositeExtract %float %252 0
+        %254 = OpCompositeExtract %float %252 1
+        %255 = OpCompositeExtract %float %252 2
+        %256 = OpCompositeConstruct %v4float %253 %254 %255 %float_0
+        %257 = OpCompositeExtract %float %232 0
+        %258 = OpCompositeExtract %float %232 1
+        %259 = OpCompositeExtract %float %232 2
+        %260 = OpCompositeConstruct %v4float %257 %258 %259 %float_0
+        %261 = OpAccessChain %_ptr_Uniform_float %BeamTrailVF %int_2 %int_0
+        %262 = OpLoad %float %261
+        %263 = OpFOrdGreaterThan %bool %262 %float_1_5
+        %264 = OpCompositeConstruct %v4bool %263 %263 %263 %263
+        %265 = OpSelect %v4float %264 %256 %243
+        %266 = OpSelect %v4float %264 %260 %246
+        %267 = OpVectorShuffle %v3float %265 %265 0 1 2
+        %268 = OpVectorShuffle %v3float %266 %266 0 1 2
+        %269 = OpExtInst %v3float %1 Cross %267 %268
+        %270 = OpExtInst %v3float %1 Normalize %269
+        %271 = OpFNegate %v3float %270
+        %272 = OpCompositeConstruct %mat3v3float %267 %268 %271
+               OpStore %104 %100
+        %273 = OpCompositeConstruct %mat3v3float %180 %183 %187
+        %274 = OpMatrixTimesMatrix %mat3v3float %273 %272
+               OpBranch %275
+        %275 = OpLabel
+        %276 = OpPhi %int %int_0 %116 %277 %278
+        %279 = OpSLessThan %bool %276 %int_4
+               OpLoopMerge %280 %278 None
+               OpBranchConditional %279 %278 %280
+        %278 = OpLabel
+        %281 = OpVectorShuffle %v2float %108 %108 0 1
+        %282 = OpAccessChain %_ptr_Function_v2float %104 %276
+               OpStore %282 %281
+        %277 = OpIAdd %int %276 %int_1
+               OpBranch %275
+        %280 = OpLabel
+        %283 = OpLoad %_arr_v2float_uint_4 %104
+        %284 = OpCompositeExtract %v2float %283 0
+        %285 = OpCompositeExtract %v2float %283 1
+        %286 = OpCompositeExtract %v2float %283 2
+        %287 = OpCompositeExtract %v2float %283 3
+        %288 = OpVectorShuffle %v4float %202 %202 4 5 6 3
+        %289 = OpCompositeExtract %mat4v4float %154 0
+        %290 = OpMatrixTimesVector %v4float %289 %288
+               OpSelectionMerge %291 DontFlatten
+               OpBranchConditional %113 %292 %291
+        %292 = OpLabel
+        %293 = OpAccessChain %_ptr_Function_v4float %EyeClipEdge %115
+        %294 = OpLoad %v4float %293
+        %295 = OpDot %float %290 %294
+        %296 = OpCompositeExtract %float %154 133
+        %297 = OpFMul %float %float_0_5 %296
+        %298 = OpCompositeExtract %float %290 0
+        %299 = OpFMul %float %298 %297
+        %300 = OpAccessChain %_ptr_Function_float %EyeOffsetScale %115
+        %301 = OpLoad %float %300
+        %302 = OpCompositeExtract %float %290 3
+        %303 = OpFMul %float %301 %302
+        %304 = OpFSub %float %float_1 %297
+        %305 = OpFMul %float %303 %304
+        %306 = OpFAdd %float %299 %305
+        %307 = OpCompositeInsert %v4float %306 %290 0
+               OpBranch %291
+        %291 = OpLabel
+        %308 = OpPhi %float %float_0 %280 %295 %292
+        %309 = OpPhi %v4float %290 %280 %307 %292
+        %310 = OpCompositeExtract %v3float %274 0
+        %311 = OpCompositeExtract %v3float %274 1
+        %312 = OpCompositeExtract %v3float %274 2
+        %313 = OpVectorShuffle %v4float %284 %285 0 1 2 3
+        %314 = OpVectorShuffle %v4float %286 %287 0 1 2 3
+               OpStore %gl_Position %309
+               OpStore %out_var_TEXCOORD0 %109
+               OpStore %out_var_TEXCOORD1 %313
+               OpStore %out_var_TEXCOORD2 %314
+               OpStore %out_var_TEXCOORD3 %310
+               OpStore %out_var_TEXCOORD4 %311
+               OpStore %out_var_TEXCOORD5 %312
+               OpStore %out_var_EYE_INDEX %115
+        %315 = OpAccessChain %_ptr_Output_float %gl_ClipDistance %uint_0
+               OpStore %315 %308
+               OpReturn
+               OpFunctionEnd
