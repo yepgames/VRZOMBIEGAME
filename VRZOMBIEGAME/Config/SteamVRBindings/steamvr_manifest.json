@@ -188,6 +188,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Crouch",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/VREditor_Left_WorldMovement",
 			"type": "boolean"
 		},
@@ -586,6 +590,7 @@
 			"/actions/main/in/sprint": "sprint",
 			"/actions/main/in/right thumbanim": "right thumbanim",
 			"/actions/main/in/left thumbanim": "left thumbanim",
+			"/actions/main/in/Crouch": "Crouch",
 			"/actions/main/in/VREditor_Left_WorldMovement": "VREditor_Left_WorldMovement",
 			"/actions/main/in/VREditor_Left_Modifier": "VREditor_Left_Modifier",
 			"/actions/main/in/VREditor_Left_TrackpadDown": "VREditor_Left_TrackpadDown",

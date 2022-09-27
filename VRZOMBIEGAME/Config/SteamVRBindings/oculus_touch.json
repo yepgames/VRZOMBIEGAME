@@ -151,6 +151,17 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/left/input/y",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Crouch"
+						}
+					}
+				},
+				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
