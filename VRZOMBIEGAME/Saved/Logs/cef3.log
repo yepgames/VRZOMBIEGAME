@@ -13,3 +13,8 @@
 [0926/034327.813:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
 [0926/034328.222:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
 [0926/034328.222:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0928/143400.561:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0928/143405.426:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0928/143405.434:WARNING:storage_block-inl.h(146)] Failed data load.
+[0928/143405.434:ERROR:entry_impl.cc(1076)] No file for c103036a
+[0928/143405.436:WARNING:storage_block-inl.h(146)] Failed data load.
