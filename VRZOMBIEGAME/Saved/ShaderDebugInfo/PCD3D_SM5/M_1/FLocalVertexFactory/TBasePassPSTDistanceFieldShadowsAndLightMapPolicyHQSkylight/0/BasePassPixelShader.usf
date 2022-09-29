@@ -4388,7 +4388,7 @@ Buffer<float4> LocalVF_VertexFetch_ColorComponentsBuffer;
 
 cbuffer Material
 {
-	float4 Material_PreshaderBuffer[57];
+	float4 Material_PreshaderBuffer[52];
 }
 Texture2D Material_Texture2D_0;
 SamplerState Material_Texture2D_0Sampler;
@@ -4432,17 +4432,11 @@ Texture2D Material_Texture2D_19;
 SamplerState Material_Texture2D_19Sampler;
 Texture2D Material_Texture2D_20;
 SamplerState Material_Texture2D_20Sampler;
-Texture2D Material_Texture2D_21;
-SamplerState Material_Texture2D_21Sampler;
-Texture2D Material_Texture2D_22;
-SamplerState Material_Texture2D_22Sampler;
-Texture2D Material_Texture2D_23;
-SamplerState Material_Texture2D_23Sampler;
 SamplerState Material_Wrap_WorldGroupSettings;
 SamplerState Material_Clamp_WorldGroupSettings;
 /*atic const struct
 {
-	float4 PreshaderBuffer[57];
+	float4 PreshaderBuffer[52];
 	Texture2D Texture2D_0;
 	SamplerState Texture2D_0Sampler;
 	Texture2D Texture2D_1;
@@ -4485,15 +4479,9 @@ SamplerState Material_Clamp_WorldGroupSettings;
 	SamplerState Texture2D_19Sampler;
 	Texture2D Texture2D_20;
 	SamplerState Texture2D_20Sampler;
-	Texture2D Texture2D_21;
-	SamplerState Texture2D_21Sampler;
-	Texture2D Texture2D_22;
-	SamplerState Texture2D_22Sampler;
-	Texture2D Texture2D_23;
-	SamplerState Texture2D_23Sampler;
 	SamplerState Wrap_WorldGroupSettings;
 	SamplerState Clamp_WorldGroupSettings;
-} Material = {Material_PreshaderBuffer,Material_Texture2D_0,Material_Texture2D_0Sampler,Material_Texture2D_1,Material_Texture2D_1Sampler,Material_Texture2D_2,Material_Texture2D_2Sampler,Material_Texture2D_3,Material_Texture2D_3Sampler,Material_Texture2D_4,Material_Texture2D_4Sampler,Material_Texture2D_5,Material_Texture2D_5Sampler,Material_Texture2D_6,Material_Texture2D_6Sampler,Material_Texture2D_7,Material_Texture2D_7Sampler,Material_Texture2D_8,Material_Texture2D_8Sampler,Material_Texture2D_9,Material_Texture2D_9Sampler,Material_Texture2D_10,Material_Texture2D_10Sampler,Material_Texture2D_11,Material_Texture2D_11Sampler,Material_Texture2D_12,Material_Texture2D_12Sampler,Material_Texture2D_13,Material_Texture2D_13Sampler,Material_Texture2D_14,Material_Texture2D_14Sampler,Material_Texture2D_15,Material_Texture2D_15Sampler,Material_Texture2D_16,Material_Texture2D_16Sampler,Material_Texture2D_17,Material_Texture2D_17Sampler,Material_Texture2D_18,Material_Texture2D_18Sampler,Material_Texture2D_19,Material_Texture2D_19Sampler,Material_Texture2D_20,Material_Texture2D_20Sampler,Material_Texture2D_21,Material_Texture2D_21Sampler,Material_Texture2D_22,Material_Texture2D_22Sampler,Material_Texture2D_23,Material_Texture2D_23Sampler,Material_Wrap_WorldGroupSettings,Material_Clamp_WorldGroupSettings,*/
+} Material = {Material_PreshaderBuffer,Material_Texture2D_0,Material_Texture2D_0Sampler,Material_Texture2D_1,Material_Texture2D_1Sampler,Material_Texture2D_2,Material_Texture2D_2Sampler,Material_Texture2D_3,Material_Texture2D_3Sampler,Material_Texture2D_4,Material_Texture2D_4Sampler,Material_Texture2D_5,Material_Texture2D_5Sampler,Material_Texture2D_6,Material_Texture2D_6Sampler,Material_Texture2D_7,Material_Texture2D_7Sampler,Material_Texture2D_8,Material_Texture2D_8Sampler,Material_Texture2D_9,Material_Texture2D_9Sampler,Material_Texture2D_10,Material_Texture2D_10Sampler,Material_Texture2D_11,Material_Texture2D_11Sampler,Material_Texture2D_12,Material_Texture2D_12Sampler,Material_Texture2D_13,Material_Texture2D_13Sampler,Material_Texture2D_14,Material_Texture2D_14Sampler,Material_Texture2D_15,Material_Texture2D_15Sampler,Material_Texture2D_16,Material_Texture2D_16Sampler,Material_Texture2D_17,Material_Texture2D_17Sampler,Material_Texture2D_18,Material_Texture2D_18Sampler,Material_Texture2D_19,Material_Texture2D_19Sampler,Material_Texture2D_20,Material_Texture2D_20Sampler,Material_Wrap_WorldGroupSettings,Material_Clamp_WorldGroupSettings,*/
 #line 44 "/Engine/Generated/GeneratedUniformBuffers.ush"
 #line 170 "/Engine/Private/Common.ush"
 #line 172 "/Engine/Private/Common.ush"
@@ -14980,8 +14968,8 @@ float2  GetMaterialRefraction(FPixelMaterialInputs PixelMaterialInputs)
 
 void GetMaterialCustomizedUVs(FMaterialVertexParameters Parameters, inout float2 OutTexCoords[ 1 ])
 {
-	float2  Local286 = Parameters.TexCoords[0].xy;
-	OutTexCoords[0] = Local286;
+	float2  Local265 = Parameters.TexCoords[0].xy;
+	OutTexCoords[0] = Local265;
 
 }
 
@@ -15208,54 +15196,48 @@ void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out 
 	float  Local128 = (Local127.r * Material_PreshaderBuffer[24].y);
 	float  Local129 = saturate(Local128);
 	float3  Local130 = lerp(Local119, float3 ( float2 (Local124,Local125),Local122.b),Local129);
-	float2  Local131 = ( Local82  * (( float2 )Material_PreshaderBuffer[24].z));
-	float  Local132 =  1.0f ;
-	float4  Local133 = UnpackNormalMap(Texture2DSampleGrad(Material_Texture2D_10,Material_Texture2D_10Sampler, Local131 , Local86 , Local87 ));
-	float  Local134 =  1.0f ;
-	float  Local135 = (Local133.r * Material_PreshaderBuffer[24].w);
-	float  Local136 = (Local133.g * Material_PreshaderBuffer[24].w);
-	float  Local137 = lerp(Material_PreshaderBuffer[25].z,Material_PreshaderBuffer[25].y,Local95.a);
-	float  Local138 = saturate(Local137);
-	float  Local139 = (Local138.r * Material_PreshaderBuffer[25].w);
-	float  Local140 = saturate(Local139);
-	float3  Local141 = lerp(Local130, float3 ( float2 (Local135,Local136),Local133.b),Local140);
-	float  Local142 = (Local141.b + 1.00000000);
-	float  Local143 = dot( Local1 ,Material_PreshaderBuffer[27].yz);
-	float  Local144 = dot( Local1 ,Material_PreshaderBuffer[28].xy);
-	float2  Local145 =  float2 ( Local143 , Local144 );
-	float2  Local146 = ( float2 (0.50000000,0.50000000) +  Local145 );
-	float2  Local147 = ( Local146  + Material_PreshaderBuffer[29].xy);
-	float2  Local148 = ( Local147  * Material_PreshaderBuffer[31].xy);
-	float2  Local149 = ddy( Local148 );
-	float2  Local150 = ddx( Local148 );
-	float2  Local151 = ( Local150  * (( float2 )View_MaterialTextureDerivativeMultiply));
-	float2  Local152 = ( Local149  * (( float2 )View_MaterialTextureDerivativeMultiply));
-	float  Local153 =  1.0f ;
-	float4  Local154 = UnpackNormalMap(Texture2DSampleGrad(Material_Texture2D_11,Material_Texture2D_11Sampler, Local148 , Local151 , Local152 ));
-	float  Local155 =  1.0f ;
-	float  Local156 = (Local154.r * Material_PreshaderBuffer[31].z);
-	float  Local157 = (Local154.g * Material_PreshaderBuffer[31].z);
-	float2  Local158 = ( float3 ( float2 (Local156,Local157),Local154.b).rg * (( float2 )-1.00000000));
-	float  Local159 = dot( float3 (Local141.rg,Local142), float3 (Local158, float3 ( float2 (Local156,Local157),Local154.b).b));
-	float3  Local160 = ( float3 (Local141.rg,Local142) * (( float3 )Local159));
-	float3  Local161 = ((( float3 )Local142) *  float3 (Local158, float3 ( float2 (Local156,Local157),Local154.b).b));
-	float3  Local162 = (Local160 - Local161);
-	float3  Local163 = ((( float3 )Local61) * Local162);
-	float3  Local164 = lerp( float3 ( float2 (Local47,Local48),Local45.b),Local163,Local61);
-	float3  Local165 = lerp(Local164,Local162,Local61);
+	float  Local131 = lerp(Material_PreshaderBuffer[25].x,Material_PreshaderBuffer[24].w,Local95.a);
+	float  Local132 = saturate(Local131);
+	float  Local133 = (Local132.r * Material_PreshaderBuffer[25].y);
+	float  Local134 = saturate(Local133);
+	float3  Local135 = lerp(Local130,(( float3 )1.00000000),Local134);
+	float  Local136 = (Local135.b + 1.00000000);
+	float  Local137 = dot( Local1 ,Material_PreshaderBuffer[27].xy);
+	float  Local138 = dot( Local1 ,Material_PreshaderBuffer[27].zw);
+	float2  Local139 =  float2 ( Local137 , Local138 );
+	float2  Local140 = ( float2 (0.50000000,0.50000000) +  Local139 );
+	float2  Local141 = ( Local140  + Material_PreshaderBuffer[28].zw);
+	float2  Local142 = ( Local141  * Material_PreshaderBuffer[30].yz);
+	float2  Local143 = ddy( Local142 );
+	float2  Local144 = ddx( Local142 );
+	float2  Local145 = ( Local144  * (( float2 )View_MaterialTextureDerivativeMultiply));
+	float2  Local146 = ( Local143  * (( float2 )View_MaterialTextureDerivativeMultiply));
+	float  Local147 =  1.0f ;
+	float4  Local148 = UnpackNormalMap(Texture2DSampleGrad(Material_Texture2D_10,Material_Texture2D_10Sampler, Local142 , Local145 , Local146 ));
+	float  Local149 =  1.0f ;
+	float  Local150 = (Local148.r * Material_PreshaderBuffer[30].w);
+	float  Local151 = (Local148.g * Material_PreshaderBuffer[30].w);
+	float2  Local152 = ( float3 ( float2 (Local150,Local151),Local148.b).rg * (( float2 )-1.00000000));
+	float  Local153 = dot( float3 (Local135.rg,Local136), float3 (Local152, float3 ( float2 (Local150,Local151),Local148.b).b));
+	float3  Local154 = ( float3 (Local135.rg,Local136) * (( float3 )Local153));
+	float3  Local155 = ((( float3 )Local136) *  float3 (Local152, float3 ( float2 (Local150,Local151),Local148.b).b));
+	float3  Local156 = (Local154 - Local155);
+	float3  Local157 = ((( float3 )Local61) * Local156);
+	float3  Local158 = lerp( float3 ( float2 (Local47,Local48),Local45.b),Local157,Local61);
+	float3  Local159 = lerp(Local158,Local156,Local61);
 
 
-	PixelMaterialInputs.Normal = Local165;
-#line 3240 "/Engine/Generated/Material.ush"
+	PixelMaterialInputs.Normal = Local159;
+#line 3234 "/Engine/Generated/Material.ush"
 	float3 MaterialNormal = GetMaterialNormal(Parameters, PixelMaterialInputs);
-#line 3249 "/Engine/Generated/Material.ush"
+#line 3243 "/Engine/Generated/Material.ush"
 	MaterialNormal = normalize(MaterialNormal);
 
 
 
 
 	Parameters.WorldNormal = TransformTangentNormalToWorld(Parameters.TangentToWorld, MaterialNormal);
-#line 3264 "/Engine/Generated/Material.ush"
+#line 3258 "/Engine/Generated/Material.ush"
 	Parameters.WorldNormal *= Parameters.TwoSidedSign;
 
 
@@ -15266,139 +15248,124 @@ void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out 
 
 
 
-	float3  Local166 = lerp( float3 (0.00000000,0.00000000,0.00000000),Material_PreshaderBuffer[32].xyz,Material_PreshaderBuffer[31].w);
-	float  Local167 =  1.0f ;
-	float4  Local168 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_12,GetMaterialSharedSampler(Material_Texture2D_12Sampler,View_MaterialTextureBilinearWrapedSampler),Local41));
-	float  Local169 =  1.0f ;
-	float3  Local170 = (Local168.rgb * (( float3 )Material_PreshaderBuffer[34].z));
-	float  Local171 = dot(Local170, float3 (0.30000001,0.58999997,0.11000000));
-	float3  Local172 = lerp(Local170,(( float3 )Local171),Material_PreshaderBuffer[34].w);
-	float3  Local173 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[34].y),(( float3 )0.00000000),Local172);
-	float3  Local174 = (Local173 + Local172);
-	float3  Local175 = (Material_PreshaderBuffer[35].xyz * Local174);
-	float  Local176 =  1.0f ;
-	float4  Local177 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_13,GetMaterialSharedSampler(Material_Texture2D_13Sampler,View_MaterialTextureBilinearWrapedSampler), Local67 ));
-	float  Local178 =  1.0f ;
-	float3  Local179 = (Local177.rgb * (( float3 )Material_PreshaderBuffer[37].z));
-	float  Local180 = dot(Local179, float3 (0.30000001,0.58999997,0.11000000));
-	float3  Local181 = lerp(Local179,(( float3 )Local180),Material_PreshaderBuffer[37].w);
-	float3  Local182 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[37].y),(( float3 )0.00000000),Local181);
-	float3  Local183 = (Local182 + Local181);
-	float3  Local184 = (Material_PreshaderBuffer[38].xyz * Local183);
-	float  Local185 =  1.0f ;
-	float4  Local186 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_14,GetMaterialSharedSampler(Material_Texture2D_14Sampler,View_MaterialTextureBilinearWrapedSampler), Local85 ));
-	float  Local187 =  1.0f ;
-	float3  Local188 = (Local186.rgb * (( float3 )Material_PreshaderBuffer[40].z));
-	float  Local189 = dot(Local188, float3 (0.30000001,0.58999997,0.11000000));
-	float3  Local190 = lerp(Local188,(( float3 )Local189),Material_PreshaderBuffer[40].w);
-	float3  Local191 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[40].y),(( float3 )0.00000000),Local190);
-	float3  Local192 = (Local191 + Local190);
-	float3  Local193 = (Material_PreshaderBuffer[41].xyz * Local192);
-	float3  Local194 = lerp(Local184,Local193,Local107);
-	float  Local195 =  1.0f ;
-	float4  Local196 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_15,GetMaterialSharedSampler(Material_Texture2D_15Sampler,View_MaterialTextureBilinearWrapedSampler), Local109 ));
-	float  Local197 =  1.0f ;
-	float3  Local198 = (Local196.rgb * (( float3 )Material_PreshaderBuffer[43].z));
-	float  Local199 = dot(Local198, float3 (0.30000001,0.58999997,0.11000000));
-	float3  Local200 = lerp(Local198,(( float3 )Local199),Material_PreshaderBuffer[43].w);
-	float3  Local201 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[43].y),(( float3 )0.00000000),Local200);
-	float3  Local202 = (Local201 + Local200);
-	float3  Local203 = (Material_PreshaderBuffer[44].xyz * Local202);
-	float3  Local204 = lerp(Local194,Local203,Local118);
-	float  Local205 =  1.0f ;
-	float4  Local206 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_16,GetMaterialSharedSampler(Material_Texture2D_16Sampler,View_MaterialTextureBilinearWrapedSampler), Local120 ));
-	float  Local207 =  1.0f ;
-	float3  Local208 = (Local206.rgb * (( float3 )Material_PreshaderBuffer[46].z));
-	float  Local209 = dot(Local208, float3 (0.30000001,0.58999997,0.11000000));
-	float3  Local210 = lerp(Local208,(( float3 )Local209),Material_PreshaderBuffer[46].w);
-	float3  Local211 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[46].y),(( float3 )0.00000000),Local210);
-	float3  Local212 = (Local211 + Local210);
-	float3  Local213 = (Material_PreshaderBuffer[47].xyz * Local212);
-	float3  Local214 = lerp(Local204,Local213,Local129);
+	float3  Local160 = lerp( float3 (0.00000000,0.00000000,0.00000000),Material_PreshaderBuffer[31].yzw,Material_PreshaderBuffer[31].x);
+	float  Local161 =  1.0f ;
+	float4  Local162 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_11,GetMaterialSharedSampler(Material_Texture2D_11Sampler,View_MaterialTextureBilinearWrapedSampler),Local41));
+	float  Local163 =  1.0f ;
+	float3  Local164 = (Local162.rgb * (( float3 )Material_PreshaderBuffer[33].z));
+	float  Local165 = dot(Local164, float3 (0.30000001,0.58999997,0.11000000));
+	float3  Local166 = lerp(Local164,(( float3 )Local165),Material_PreshaderBuffer[33].w);
+	float3  Local167 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[33].y),(( float3 )0.00000000),Local166);
+	float3  Local168 = (Local167 + Local166);
+	float3  Local169 = (Material_PreshaderBuffer[34].xyz * Local168);
+	float  Local170 =  1.0f ;
+	float4  Local171 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_12,GetMaterialSharedSampler(Material_Texture2D_12Sampler,View_MaterialTextureBilinearWrapedSampler), Local67 ));
+	float  Local172 =  1.0f ;
+	float3  Local173 = (Local171.rgb * (( float3 )Material_PreshaderBuffer[36].z));
+	float  Local174 = dot(Local173, float3 (0.30000001,0.58999997,0.11000000));
+	float3  Local175 = lerp(Local173,(( float3 )Local174),Material_PreshaderBuffer[36].w);
+	float3  Local176 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[36].y),(( float3 )0.00000000),Local175);
+	float3  Local177 = (Local176 + Local175);
+	float3  Local178 = (Material_PreshaderBuffer[37].xyz * Local177);
+	float  Local179 =  1.0f ;
+	float4  Local180 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_13,GetMaterialSharedSampler(Material_Texture2D_13Sampler,View_MaterialTextureBilinearWrapedSampler), Local85 ));
+	float  Local181 =  1.0f ;
+	float3  Local182 = (Local180.rgb * (( float3 )Material_PreshaderBuffer[39].z));
+	float  Local183 = dot(Local182, float3 (0.30000001,0.58999997,0.11000000));
+	float3  Local184 = lerp(Local182,(( float3 )Local183),Material_PreshaderBuffer[39].w);
+	float3  Local185 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[39].y),(( float3 )0.00000000),Local184);
+	float3  Local186 = (Local185 + Local184);
+	float3  Local187 = (Material_PreshaderBuffer[40].xyz * Local186);
+	float3  Local188 = lerp(Local178,Local187,Local107);
+	float  Local189 =  1.0f ;
+	float4  Local190 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_14,GetMaterialSharedSampler(Material_Texture2D_14Sampler,View_MaterialTextureBilinearWrapedSampler), Local109 ));
+	float  Local191 =  1.0f ;
+	float3  Local192 = (Local190.rgb * (( float3 )Material_PreshaderBuffer[42].z));
+	float  Local193 = dot(Local192, float3 (0.30000001,0.58999997,0.11000000));
+	float3  Local194 = lerp(Local192,(( float3 )Local193),Material_PreshaderBuffer[42].w);
+	float3  Local195 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[42].y),(( float3 )0.00000000),Local194);
+	float3  Local196 = (Local195 + Local194);
+	float3  Local197 = (Material_PreshaderBuffer[43].xyz * Local196);
+	float3  Local198 = lerp(Local188,Local197,Local118);
+	float  Local199 =  1.0f ;
+	float4  Local200 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_15,GetMaterialSharedSampler(Material_Texture2D_15Sampler,View_MaterialTextureBilinearWrapedSampler), Local120 ));
+	float  Local201 =  1.0f ;
+	float3  Local202 = (Local200.rgb * (( float3 )Material_PreshaderBuffer[45].z));
+	float  Local203 = dot(Local202, float3 (0.30000001,0.58999997,0.11000000));
+	float3  Local204 = lerp(Local202,(( float3 )Local203),Material_PreshaderBuffer[45].w);
+	float3  Local205 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[45].y),(( float3 )0.00000000),Local204);
+	float3  Local206 = (Local205 + Local204);
+	float3  Local207 = (Material_PreshaderBuffer[46].xyz * Local206);
+	float3  Local208 = lerp(Local198,Local207,Local129);
+	float3  Local209 = lerp(Local208,(( float3 )1.00000000),Local134);
+	float3  Local210 = ((( float3 )Local61) * Local209);
+	float3  Local211 = lerp(Local169,Local210,Local61);
+	float3  Local212 = lerp(Local211,Local209,Local61);
+	float  Local213 =  1.0f ;
+	float4  Local214 = Texture2DSample(Material_Texture2D_16,GetMaterialSharedSampler(Material_Texture2D_16Sampler,View_MaterialTextureBilinearWrapedSampler), Local67 );
 	float  Local215 =  1.0f ;
-	float4  Local216 = ProcessMaterialColorTextureLookup(Texture2DSample(Material_Texture2D_17,GetMaterialSharedSampler(Material_Texture2D_17Sampler,View_MaterialTextureBilinearWrapedSampler), Local131 ));
+	float  Local216 = PositiveClampedPow(Local214.b,Material_PreshaderBuffer[46].w);
 	float  Local217 =  1.0f ;
-	float3  Local218 = (Local216.rgb * (( float3 )Material_PreshaderBuffer[49].z));
-	float  Local219 = dot(Local218, float3 (0.30000001,0.58999997,0.11000000));
-	float3  Local220 = lerp(Local218,(( float3 )Local219),Material_PreshaderBuffer[49].w);
-	float3  Local221 = RotateAboutAxis( float4 (normalize( float3 (1.00000000,1.00000000,1.00000000)),Material_PreshaderBuffer[49].y),(( float3 )0.00000000),Local220);
-	float3  Local222 = (Local221 + Local220);
-	float3  Local223 = (Material_PreshaderBuffer[50].xyz * Local222);
-	float3  Local224 = lerp(Local214,Local223,Local140);
-	float3  Local225 = ((( float3 )Local61) * Local224);
-	float3  Local226 = lerp(Local175,Local225,Local61);
-	float3  Local227 = lerp(Local226,Local224,Local61);
-	float  Local228 =  1.0f ;
-	float4  Local229 = Texture2DSample(Material_Texture2D_18,GetMaterialSharedSampler(Material_Texture2D_18Sampler,View_MaterialTextureBilinearWrapedSampler), Local67 );
-	float  Local230 =  1.0f ;
-	float  Local231 = PositiveClampedPow(Local229.b,Material_PreshaderBuffer[50].w);
-	float  Local232 =  1.0f ;
-	float4  Local233 = Texture2DSample(Material_Texture2D_19,GetMaterialSharedSampler(Material_Texture2D_19Sampler,View_MaterialTextureBilinearWrapedSampler), Local85 );
-	float  Local234 =  1.0f ;
-	float  Local235 = PositiveClampedPow(Local233.b,Material_PreshaderBuffer[51].x);
-	float  Local236 = lerp(Local231,Local235,Local107);
-	float  Local237 =  1.0f ;
-	float4  Local238 = Texture2DSample(Material_Texture2D_20,GetMaterialSharedSampler(Material_Texture2D_20Sampler,View_MaterialTextureBilinearWrapedSampler), Local109 );
-	float  Local239 =  1.0f ;
-	float  Local240 = PositiveClampedPow(Local238.b,Material_PreshaderBuffer[51].y);
-	float  Local241 = lerp(Local236,Local240,Local118);
-	float  Local242 =  1.0f ;
-	float4  Local243 = Texture2DSample(Material_Texture2D_21,GetMaterialSharedSampler(Material_Texture2D_21Sampler,View_MaterialTextureBilinearWrapedSampler), Local120 );
-	float  Local244 =  1.0f ;
-	float  Local245 = PositiveClampedPow(Local243.b,Material_PreshaderBuffer[51].z);
-	float  Local246 = lerp(Local241,Local245,Local129);
-	float  Local247 =  1.0f ;
-	float4  Local248 = Texture2DSample(Material_Texture2D_22,GetMaterialSharedSampler(Material_Texture2D_22Sampler,View_MaterialTextureBilinearWrapedSampler), Local131 );
-	float  Local249 =  1.0f ;
-	float  Local250 = PositiveClampedPow(Local248.b,Material_PreshaderBuffer[51].w);
-	float  Local251 = lerp(Local246,Local250,Local140);
-	float  Local252 = (Local61 * Local251);
-	float  Local253 = lerp(0.00000000,Local252,Local61);
-	float  Local254 = lerp(Local253,Local251,Local61);
-	float  Local255 =  1.0f ;
-	float4  Local256 = Texture2DSample(Material_Texture2D_23,GetMaterialSharedSampler(Material_Texture2D_23Sampler,View_MaterialTextureBilinearWrapedSampler),Local41);
-	float  Local257 =  1.0f ;
-	float  Local258 = lerp(Material_PreshaderBuffer[52].z,Material_PreshaderBuffer[52].y,Local256.g);
-	float  Local259 = lerp(Material_PreshaderBuffer[53].x,Material_PreshaderBuffer[52].w,Local229.g);
-	float  Local260 = lerp(Material_PreshaderBuffer[53].z,Material_PreshaderBuffer[53].y,Local233.g);
-	float  Local261 = lerp(Local259,Local260,Local107);
-	float  Local262 = lerp(Material_PreshaderBuffer[54].x,Material_PreshaderBuffer[53].w,Local238.g);
-	float  Local263 = lerp(Local261,Local262,Local118);
-	float  Local264 = lerp(Material_PreshaderBuffer[54].z,Material_PreshaderBuffer[54].y,Local243.g);
-	float  Local265 = lerp(Local263,Local264,Local129);
-	float  Local266 = lerp(Material_PreshaderBuffer[55].x,Material_PreshaderBuffer[54].w,Local248.g);
-	float  Local267 = lerp(Local265,Local266,Local140);
-	float  Local268 = (Local61 * Local267);
-	float  Local269 = lerp(Local258,Local268,Local61);
-	float  Local270 = lerp(Local269,Local267,Local61);
-	float  Local271 = lerp(Local177.a,1.00000000,0.50000000);
-	float  Local272 = (Local271 * Material_PreshaderBuffer[55].y);
-	float  Local273 = PositiveClampedPow(Local256.r,Material_PreshaderBuffer[55].z);
-	float  Local274 = PositiveClampedPow(Local229.r,Material_PreshaderBuffer[55].w);
-	float  Local275 = PositiveClampedPow(Local233.r,Material_PreshaderBuffer[56].x);
-	float  Local276 = lerp(Local274,Local275,Local107);
-	float  Local277 = PositiveClampedPow(Local238.r,Material_PreshaderBuffer[56].y);
-	float  Local278 = lerp(Local276,Local277,Local118);
-	float  Local279 = PositiveClampedPow(Local243.r,Material_PreshaderBuffer[56].z);
-	float  Local280 = lerp(Local278,Local279,Local129);
-	float  Local281 = PositiveClampedPow(Local248.r,Material_PreshaderBuffer[56].w);
-	float  Local282 = lerp(Local280,Local281,Local140);
-	float  Local283 = (Local61 * Local282);
-	float  Local284 = lerp(Local273,Local283,Local61);
-	float  Local285 = lerp(Local284,Local282,Local61);
+	float4  Local218 = Texture2DSample(Material_Texture2D_17,GetMaterialSharedSampler(Material_Texture2D_17Sampler,View_MaterialTextureBilinearWrapedSampler), Local85 );
+	float  Local219 =  1.0f ;
+	float  Local220 = PositiveClampedPow(Local218.b,Material_PreshaderBuffer[47].x);
+	float  Local221 = lerp(Local216,Local220,Local107);
+	float  Local222 =  1.0f ;
+	float4  Local223 = Texture2DSample(Material_Texture2D_18,GetMaterialSharedSampler(Material_Texture2D_18Sampler,View_MaterialTextureBilinearWrapedSampler), Local109 );
+	float  Local224 =  1.0f ;
+	float  Local225 = PositiveClampedPow(Local223.b,Material_PreshaderBuffer[47].y);
+	float  Local226 = lerp(Local221,Local225,Local118);
+	float  Local227 =  1.0f ;
+	float4  Local228 = Texture2DSample(Material_Texture2D_19,GetMaterialSharedSampler(Material_Texture2D_19Sampler,View_MaterialTextureBilinearWrapedSampler), Local120 );
+	float  Local229 =  1.0f ;
+	float  Local230 = PositiveClampedPow(Local228.b,Material_PreshaderBuffer[47].z);
+	float  Local231 = lerp(Local226,Local230,Local129);
+	float  Local232 = lerp(Local231,1.00000000,Local134);
+	float  Local233 = (Local61 * Local232);
+	float  Local234 = lerp(0.00000000,Local233,Local61);
+	float  Local235 = lerp(Local234,Local232,Local61);
+	float  Local236 =  1.0f ;
+	float4  Local237 = Texture2DSample(Material_Texture2D_20,GetMaterialSharedSampler(Material_Texture2D_20Sampler,View_MaterialTextureBilinearWrapedSampler),Local41);
+	float  Local238 =  1.0f ;
+	float  Local239 = lerp(Material_PreshaderBuffer[48].y,Material_PreshaderBuffer[48].x,Local237.g);
+	float  Local240 = lerp(Material_PreshaderBuffer[48].w,Material_PreshaderBuffer[48].z,Local214.g);
+	float  Local241 = lerp(Material_PreshaderBuffer[49].y,Material_PreshaderBuffer[49].x,Local218.g);
+	float  Local242 = lerp(Local240,Local241,Local107);
+	float  Local243 = lerp(Material_PreshaderBuffer[49].w,Material_PreshaderBuffer[49].z,Local223.g);
+	float  Local244 = lerp(Local242,Local243,Local118);
+	float  Local245 = lerp(Material_PreshaderBuffer[50].y,Material_PreshaderBuffer[50].x,Local228.g);
+	float  Local246 = lerp(Local244,Local245,Local129);
+	float  Local247 = lerp(Local246,1.00000000,Local134);
+	float  Local248 = (Local61 * Local247);
+	float  Local249 = lerp(Local239,Local248,Local61);
+	float  Local250 = lerp(Local249,Local247,Local61);
+	float  Local251 = lerp(Local171.a,1.00000000,0.50000000);
+	float  Local252 = (Local251 * Material_PreshaderBuffer[50].z);
+	float  Local253 = PositiveClampedPow(Local237.r,Material_PreshaderBuffer[50].w);
+	float  Local254 = PositiveClampedPow(Local214.r,Material_PreshaderBuffer[51].x);
+	float  Local255 = PositiveClampedPow(Local218.r,Material_PreshaderBuffer[51].y);
+	float  Local256 = lerp(Local254,Local255,Local107);
+	float  Local257 = PositiveClampedPow(Local223.r,Material_PreshaderBuffer[51].z);
+	float  Local258 = lerp(Local256,Local257,Local118);
+	float  Local259 = PositiveClampedPow(Local228.r,Material_PreshaderBuffer[51].w);
+	float  Local260 = lerp(Local258,Local259,Local129);
+	float  Local261 = lerp(Local260,1.00000000,Local134);
+	float  Local262 = (Local61 * Local261);
+	float  Local263 = lerp(Local253,Local262,Local61);
+	float  Local264 = lerp(Local263,Local261,Local61);
 
-	PixelMaterialInputs.EmissiveColor = Local166;
+	PixelMaterialInputs.EmissiveColor = Local160;
 	PixelMaterialInputs.Opacity = 1.00000000;
-	PixelMaterialInputs.OpacityMask = Local272;
-	PixelMaterialInputs.BaseColor = Local227;
-	PixelMaterialInputs.Metallic = Local254;
-	PixelMaterialInputs.Specular = Material_PreshaderBuffer[52].x;
-	PixelMaterialInputs.Roughness = Local270;
+	PixelMaterialInputs.OpacityMask = Local252;
+	PixelMaterialInputs.BaseColor = Local212;
+	PixelMaterialInputs.Metallic = Local235;
+	PixelMaterialInputs.Specular = Material_PreshaderBuffer[47].w;
+	PixelMaterialInputs.Roughness = Local250;
 	PixelMaterialInputs.Anisotropy = 0.00000000;
-	PixelMaterialInputs.Normal = Local165;
+	PixelMaterialInputs.Normal = Local159;
 	PixelMaterialInputs.Tangent =  float3 (1.00000000,0.00000000,0.00000000);
 	PixelMaterialInputs.Subsurface = 0;
-	PixelMaterialInputs.AmbientOcclusion = Local285;
+	PixelMaterialInputs.AmbientOcclusion = Local264;
 	PixelMaterialInputs.Refraction = 0;
 	PixelMaterialInputs.PixelDepthOffset = 0.00000000;
 	PixelMaterialInputs.ShadingModel = 1;
@@ -24037,7 +24004,7 @@ DeferredLightUniforms, 9437581
 RaytracingLightsDataPacked, 109251083
 VirtualShadowMap, 274731640
 LocalVF, 105252632
-Material, 86313984
+Material, 27789576
 NULL, 0
 View_MaterialTextureBilinearWrapedSampler, View, 8, 0
 View_MaterialTextureBilinearClampedSampler, View, 8, 1
@@ -24483,14 +24450,8 @@ Material_Texture2D_19, Material, 5, 38
 Material_Texture2D_19Sampler, Material, 8, 39
 Material_Texture2D_20, Material, 5, 40
 Material_Texture2D_20Sampler, Material, 8, 41
-Material_Texture2D_21, Material, 5, 42
-Material_Texture2D_21Sampler, Material, 8, 43
-Material_Texture2D_22, Material, 5, 44
-Material_Texture2D_22Sampler, Material, 8, 45
-Material_Texture2D_23, Material, 5, 46
-Material_Texture2D_23Sampler, Material, 8, 47
-Material_Wrap_WorldGroupSettings, Material, 8, 48
-Material_Clamp_WorldGroupSettings, Material, 8, 49
+Material_Wrap_WorldGroupSettings, Material, 8, 42
+Material_Clamp_WorldGroupSettings, Material, 8, 43
 NULL, NULL, 0, 0
 #endif /*END_RESOURCE_TABLES*/
 #if 0 /*DIRECT COMPILE*/
